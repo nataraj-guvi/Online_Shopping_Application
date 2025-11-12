@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-13T00:03:51 IST" name="Online_Shopping_Application Suite" finished-at="2025-11-13T00:05:30 IST" duration-ms="98867">
+    <groups>
+    </groups>
+    <test started-at="2025-11-13T00:03:51 IST" name="Firefox Tests" finished-at="2025-11-13T00:05:30 IST" duration-ms="98867">
+      <class name="com.demoblaze.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:03:53 IST" name="setUp" finished-at="2025-11-13T00:04:05 IST" duration-ms="12377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testValidLogin(java.lang.String,java.lang.String)[pri:1, instance:com.demoblaze.tests.LoginTest@42463763] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:05 IST" name="pageSetup" finished-at="2025-11-13T00:04:05 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:1, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:05 IST" name="testValidLogin" description="Verify login with valid credentials" data-provider="excelLoginData" finished-at="2025-11-13T00:04:12 IST" duration-ms="6497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nataraj.guvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:12 IST" name="tearDown" finished-at="2025-11-13T00:04:14 IST" duration-ms="2458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:15 IST" name="setUp" finished-at="2025-11-13T00:04:23 IST" duration-ms="8755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testInvalidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.demoblaze.tests.LoginTest@42463763] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:23 IST" name="pageSetup" finished-at="2025-11-13T00:04:23 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="testInvalidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:23 IST" name="testInvalidPassword" description="Verify login with incorrect password" data-provider="excelIncorrectPasswordLoginData" finished-at="2025-11-13T00:04:26 IST" duration-ms="2468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nataraj.guvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:26 IST" name="tearDown" finished-at="2025-11-13T00:04:29 IST" duration-ms="3471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:30 IST" name="setUp" finished-at="2025-11-13T00:04:38 IST" duration-ms="7870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testEmptyFields(java.lang.String,java.lang.String)[pri:3, instance:com.demoblaze.tests.LoginTest@42463763] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:38 IST" name="pageSetup" finished-at="2025-11-13T00:04:38 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="testEmptyFields(java.lang.String,java.lang.String)[pri:3, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:38 IST" name="testEmptyFields" description="Verify login with EmptyFields" data-provider="excelEmptyFieldsLoginData" finished-at="2025-11-13T00:04:41 IST" duration-ms="2894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[empty.username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[empty.password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:41 IST" name="tearDown" finished-at="2025-11-13T00:04:43 IST" duration-ms="2224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:43 IST" name="setUp" finished-at="2025-11-13T00:04:49 IST" duration-ms="5572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testInvalidEmailFormat(java.lang.String,java.lang.String)[pri:4, instance:com.demoblaze.tests.LoginTest@42463763] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:49 IST" name="pageSetup" finished-at="2025-11-13T00:04:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="testInvalidEmailFormat(java.lang.String,java.lang.String)[pri:4, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:49 IST" name="testInvalidEmailFormat" description="Verify login with InvalidEmailFormat" data-provider="excelInvalidEmailLoginData" finished-at="2025-11-13T00:04:51 IST" duration-ms="2253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailFormat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:51 IST" name="tearDown" finished-at="2025-11-13T00:04:52 IST" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:52 IST" name="setUp" finished-at="2025-11-13T00:04:58 IST" duration-ms="5697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testPasswordFieldMasksInput(java.lang.String,java.lang.String)[pri:5, instance:com.demoblaze.tests.LoginTest@42463763] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:58 IST" name="pageSetup" finished-at="2025-11-13T00:04:58 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="testPasswordFieldMasksInput(java.lang.String,java.lang.String)[pri:5, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:04:58 IST" name="testPasswordFieldMasksInput" description="Verify password field masks input" data-provider="excelPasswordMaskingLoginData" finished-at="2025-11-13T00:05:00 IST" duration-ms="1401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nataraj.guvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordFieldMasksInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.tests.LoginTest@42463763]" started-at="2025-11-13T00:05:00 IST" name="tearDown" finished-at="2025-11-13T00:05:01 IST" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoblaze.tests.LoginTest -->
+      <class name="com.demoblaze.tests.SignUpTest">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.demoblaze.tests.SignUpTest@301ec38b]" started-at="2025-11-13T00:03:51 IST" name="suiteSetup" finished-at="2025-11-13T00:03:51 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.demoblaze.tests.SignUpTest@301ec38b]" started-at="2025-11-13T00:03:53 IST" name="setUp" finished-at="2025-11-13T00:04:05 IST" duration-ms="12155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SignUpTest.testSignupWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:com.demoblaze.tests.SignUpTest@301ec38b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.demoblaze.tests.SignUpTest@301ec38b]" started-at="2025-11-13T00:04:05 IST" name="pageSetup" finished-at="2025-11-13T00:04:05 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="testSignupWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:com.demoblaze.tests.SignUpTest@301ec38b]" started-at="2025-11-13T00:04:05 IST" name="testSignupWithValidDetails" description="Verify user sign-up with unique credentials" data-provider="signupdata" finished-at="2025-11-13T00:04:08 IST" duration-ms="3020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nataraj52f92]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345e6e93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignupWithValidDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.tests.SignUpTest@301ec38b]" started-at="2025-11-13T00:04:08 IST" name="tearDown" finished-at="2025-11-13T00:04:13 IST" duration-ms="5037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.demoblaze.tests.SignUpTest@301ec38b]" started-at="2025-11-13T00:04:14 IST" name="setUp" finished-at="2025-11-13T00:04:23 IST" duration-ms="8694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SignUpTest.testValidLogin(java.lang.String,java.lang.String)[pri:2, instance:com.demoblaze.tests.SignUpTest@301ec38b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.demoblaze.tests.SignUpTest@301ec38b]" started-at="2025-11-13T00:04:23 IST" name="pageSetup" finished-at="2025-11-13T00:04:23 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:2, instance:com.demoblaze.tests.SignUpTest@301ec38b]" started-at="2025-11-13T00:04:23 IST" name="testValidLogin" description="Verify sign-up with existing username" data-provider="excelLoginData" finished-at="2025-11-13T00:04:27 IST" duration-ms="4218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nataraj.guvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.tests.SignUpTest@301ec38b]" started-at="2025-11-13T00:04:27 IST" name="tearDown" finished-at="2025-11-13T00:04:30 IST" duration-ms="2908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.demoblaze.tests.SignUpTest@301ec38b]" started-at="2025-11-13T00:04:30 IST" name="setUp" finished-at="2025-11-13T00:04:39 IST" duration-ms="9339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SignUpTest.testEmptyFields(java.lang.String,java.lang.String)[pri:3, instance:com.demoblaze.tests.SignUpTest@301ec38b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.demoblaze.tests.SignUpTest@301ec38b]" started-at="2025-11-13T00:04:39 IST" name="pageSetup" finished-at="2025-11-13T00:04:39 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="testEmptyFields(java.lang.String,java.lang.String)[pri:3, instance:com.demoblaze.tests.SignUpTest@301ec38b]" started-at="2025-11-13T00:04:39 IST" name="testEmptyFields" description="Verify sign-up with empty fields" data-provider="excelEmptyFieldsLoginData" finished-at="2025-11-13T00:04:41 IST" duration-ms="1578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[empty.username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[empty.password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.tests.SignUpTest@301ec38b]" started-at="2025-11-13T00:04:41 IST" name="tearDown" finished-at="2025-11-13T00:04:43 IST" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:com.demoblaze.tests.SignUpTest@301ec38b]" started-at="2025-11-13T00:05:30 IST" name="suiteTearDown" finished-at="2025-11-13T00:05:31 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- com.demoblaze.tests.SignUpTest -->
+      <class name="com.demoblaze.tests.OrderTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.demoblaze.tests.OrderTest@7103cb56]" started-at="2025-11-13T00:03:53 IST" name="setUp" finished-at="2025-11-13T00:04:06 IST" duration-ms="13165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=OrderTest.testPlaceOrderWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:com.demoblaze.tests.OrderTest@7103cb56] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.demoblaze.tests.OrderTest@7103cb56]" started-at="2025-11-13T00:04:06 IST" name="pageSetup" finished-at="2025-11-13T00:04:06 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="testPlaceOrderWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:com.demoblaze.tests.OrderTest@7103cb56]" started-at="2025-11-13T00:04:06 IST" name="testPlaceOrderWithValidDetails" data-provider="excelLoginData" finished-at="2025-11-13T00:04:55 IST" duration-ms="48856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nataraj.guvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlaceOrderWithValidDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.tests.OrderTest@7103cb56]" started-at="2025-11-13T00:04:55 IST" name="tearDown" finished-at="2025-11-13T00:04:57 IST" duration-ms="1994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.demoblaze.tests.OrderTest@7103cb56]" started-at="2025-11-13T00:04:57 IST" name="setUp" finished-at="2025-11-13T00:05:05 IST" duration-ms="7130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=OrderTest.testPlaceOrderWithEmptyForm(java.lang.String,java.lang.String)[pri:2, instance:com.demoblaze.tests.OrderTest@7103cb56] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.demoblaze.tests.OrderTest@7103cb56]" started-at="2025-11-13T00:05:05 IST" name="pageSetup" finished-at="2025-11-13T00:05:05 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="testPlaceOrderWithEmptyForm(java.lang.String,java.lang.String)[pri:2, instance:com.demoblaze.tests.OrderTest@7103cb56]" started-at="2025-11-13T00:05:05 IST" name="testPlaceOrderWithEmptyForm" data-provider="excelLoginData" finished-at="2025-11-13T00:05:06 IST" duration-ms="1294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nataraj.guvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlaceOrderWithEmptyForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.tests.OrderTest@7103cb56]" started-at="2025-11-13T00:05:06 IST" name="tearDown" finished-at="2025-11-13T00:05:07 IST" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.demoblaze.tests.OrderTest@7103cb56]" started-at="2025-11-13T00:05:07 IST" name="setUp" finished-at="2025-11-13T00:05:12 IST" duration-ms="4719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=OrderTest.testCompleteOrderAndNavigationFlow(java.lang.String,java.lang.String)[pri:3, instance:com.demoblaze.tests.OrderTest@7103cb56] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.demoblaze.tests.OrderTest@7103cb56]" started-at="2025-11-13T00:05:12 IST" name="pageSetup" finished-at="2025-11-13T00:05:12 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="testCompleteOrderAndNavigationFlow(java.lang.String,java.lang.String)[pri:3, instance:com.demoblaze.tests.OrderTest@7103cb56]" started-at="2025-11-13T00:05:12 IST" name="testCompleteOrderAndNavigationFlow" data-provider="excelLoginData" finished-at="2025-11-13T00:05:29 IST" duration-ms="17325" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nataraj.guvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (eb9fdef6-1af9-4b53-81f3-9b269e735b79)] -> xpath: //h5[text()='New message']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17920, moz:profile: C:\Users\91986\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: eb9fdef6-1af9-4b53-81f3-9b269e735b79]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (eb9fdef6-1af9-4b53-81f3-9b269e735b79)] -> xpath: //h5[text()='New message']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17920, moz:profile: C:\Users\91986\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: eb9fdef6-1af9-4b53-81f3-9b269e735b79
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.demoblaze.pages.HomePage.isContactModalDisplayed(HomePage.java:361)
+at com.demoblaze.tests.OrderTest.lambda$2(OrderTest.java:302)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at com.demoblaze.utils.WaitUtils.waitForCondition(WaitUtils.java:91)
+at com.demoblaze.tests.OrderTest.waitForContactModalToLoad(OrderTest.java:301)
+at com.demoblaze.tests.OrderTest.testCompleteOrderAndNavigationFlow(OrderTest.java:281)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteOrderAndNavigationFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.tests.OrderTest@7103cb56]" started-at="2025-11-13T00:05:29 IST" name="tearDown" finished-at="2025-11-13T00:05:30 IST" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoblaze.tests.OrderTest -->
+    </test> <!-- Firefox Tests -->
+  </suite> <!-- Online_Shopping_Application Suite -->
+</testng-results>

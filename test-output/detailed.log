@@ -1,0 +1,405 @@
+2025-10-12 04:47:50.586 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Rajb51ae
+2025-10-12 04:47:50.589 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 04:47:51.377 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 04:47:52.657 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:47:53.747 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 04:47:53.770 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 04:47:55.034 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 04:48:52.720 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 04:48:53.587 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 04:48:53.589 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 04:48:55.123 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 04:48:55.135 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:48:55.135 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 04:49:00.151 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 04:50:20.792 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Rajdf101
+2025-10-12 04:50:20.795 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 04:50:21.753 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 04:50:23.654 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:50:24.960 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 04:50:24.988 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 04:50:26.471 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 04:51:25.526 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Rajccbc1
+2025-10-12 04:51:25.528 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 04:51:26.500 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 04:51:27.028 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:51:28.056 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 04:51:28.056 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 04:51:28.892 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 04:51:52.962 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 04:51:53.772 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 04:51:53.774 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 04:51:55.355 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 04:51:55.372 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:51:55.372 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 04:52:00.413 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 04:53:12.351 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with empty email and password test
+2025-10-12 04:53:13.225 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 04:53:13.226 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with empty email and password data
+2025-10-12 04:53:14.572 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 04:53:14.581 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with empty email and password signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:53:14.581 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 04:53:16.769 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 04:53:17.593 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 04:53:17.597 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 04:53:18.186 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 04:53:18.190 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:53:18.190 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 04:53:19.660 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 04:53:23.197 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 04:53:54.861 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with InvalidEmailFormat test
+2025-10-12 04:53:55.624 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 04:53:55.625 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with InvalidEmailFormat data
+2025-10-12 04:53:56.876 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with InvalidEmailFormat data
+2025-10-12 04:53:56.890 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with InvalidEmailFormat signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:53:56.890 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 04:54:01.936 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 04:55:02.253 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with empty email and password test
+2025-10-12 04:55:03.332 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 04:55:03.332 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with empty email and password data
+2025-10-12 04:55:03.889 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 04:55:03.889 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with empty email and password signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:55:03.889 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 04:55:08.908 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 04:55:56.035 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with InvalidEmailFormat test
+2025-10-12 04:55:56.957 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 04:55:56.959 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with InvalidEmailFormat data
+2025-10-12 04:55:57.539 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with InvalidEmailFormat data
+2025-10-12 04:55:57.539 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with InvalidEmailFormat signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:55:57.539 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 04:56:02.561 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 04:57:49.558 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Rajfda58
+2025-10-12 04:57:49.572 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 04:57:51.560 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 04:57:53.966 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:57:55.244 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 04:57:55.277 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 04:57:58.272 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 04:58:05.265 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 04:58:07.196 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 04:58:07.198 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 04:58:09.072 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 04:58:09.102 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:58:09.102 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 04:58:14.115 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 04:58:19.721 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with empty email and password test
+2025-10-12 04:58:23.166 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 04:58:23.169 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with empty email and password data
+2025-10-12 04:58:25.036 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 04:58:25.053 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with empty email and password signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:58:25.053 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 04:58:30.091 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 04:58:35.338 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with InvalidEmailFormat test
+2025-10-12 04:58:36.516 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 04:58:36.516 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with InvalidEmailFormat data
+2025-10-12 04:58:38.125 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with InvalidEmailFormat data
+2025-10-12 04:58:38.145 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with InvalidEmailFormat signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:58:38.145 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 04:58:43.206 [TestNG-test-Chrome Tests-5] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 04:59:38.149 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Rajb51e0
+2025-10-12 04:59:38.150 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 04:59:39.893 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 04:59:41.301 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:59:43.784 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 04:59:43.792 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 04:59:44.609 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 04:59:57.899 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 04:59:59.123 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 04:59:59.124 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 04:59:59.748 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 04:59:59.757 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 04:59:59.757 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:00:04.766 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:00:13.697 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with empty email and password test
+2025-10-12 05:00:14.625 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:00:14.625 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with empty email and password data
+2025-10-12 05:00:15.266 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 05:00:15.273 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with empty email and password signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:00:15.275 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:00:20.288 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:00:27.433 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with InvalidEmailFormat test
+2025-10-12 05:00:28.655 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:00:28.655 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with InvalidEmailFormat data
+2025-10-12 05:00:29.414 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with InvalidEmailFormat data
+2025-10-12 05:00:29.414 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with InvalidEmailFormat signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:00:29.414 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:00:34.430 [TestNG-test-Firefox Tests-5] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:03:58.829 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Rajde6a9
+2025-10-12 05:03:58.829 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 05:03:59.801 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 05:04:01.999 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:04:03.415 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 05:04:03.432 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 05:04:04.912 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 05:05:07.756 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Raj11621
+2025-10-12 05:05:07.759 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 05:05:08.753 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 05:05:09.399 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:05:10.641 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 05:05:10.654 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 05:05:11.154 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 05:05:11.494 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 05:05:12.097 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:05:12.099 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 05:05:13.249 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 05:05:13.262 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:05:13.263 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:05:18.273 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:06:26.291 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 05:06:27.229 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:06:27.229 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 05:06:27.909 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 05:06:27.914 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:06:27.914 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:06:29.810 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with empty email and password test
+2025-10-12 05:06:30.621 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:06:30.621 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with empty email and password data
+2025-10-12 05:06:32.340 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 05:06:32.360 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with empty email and password signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:06:32.360 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:06:32.930 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:06:37.441 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:07:11.840 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with InvalidEmailFormat test
+2025-10-12 05:07:12.589 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:07:12.590 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with InvalidEmailFormat data
+2025-10-12 05:07:13.559 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with InvalidEmailFormat data
+2025-10-12 05:07:13.571 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with InvalidEmailFormat signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:07:13.571 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:07:18.599 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:07:56.915 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with empty email and password test
+2025-10-12 05:07:57.831 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:07:57.831 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with empty email and password data
+2025-10-12 05:07:58.320 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 05:07:58.324 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with empty email and password signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:07:58.324 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:08:03.334 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:08:43.118 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with InvalidEmailFormat test
+2025-10-12 05:08:43.931 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:08:43.931 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with InvalidEmailFormat data
+2025-10-12 05:08:44.405 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with InvalidEmailFormat data
+2025-10-12 05:08:44.411 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with InvalidEmailFormat signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:08:44.411 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:08:49.421 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:17:03.179 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Raj7667e
+2025-10-12 05:17:03.183 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 05:17:03.919 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 05:17:05.220 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:17:06.418 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 05:17:06.429 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 05:17:07.900 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 05:19:32.431 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Raj03436
+2025-10-12 05:19:32.439 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 05:19:33.261 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 05:19:33.805 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:19:34.784 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 05:19:34.789 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 05:19:35.853 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 05:20:45.493 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 05:20:46.334 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:20:46.334 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 05:20:46.859 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 05:20:46.859 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:20:46.859 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:20:51.891 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:22:22.435 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with empty email and password test
+2025-10-12 05:22:23.295 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:22:23.295 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with empty email and password data
+2025-10-12 05:22:23.779 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 05:22:23.785 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with empty email and password signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:22:23.785 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:22:28.810 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:23:11.590 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with InvalidEmailFormat test
+2025-10-12 05:23:12.695 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:23:12.696 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with InvalidEmailFormat data
+2025-10-12 05:23:13.234 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with InvalidEmailFormat data
+2025-10-12 05:23:13.238 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with InvalidEmailFormat signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:23:13.238 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:23:18.258 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:26:13.770 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Rajcf953
+2025-10-12 05:26:13.774 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 05:26:14.645 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 05:26:16.612 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:26:17.711 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 05:26:17.731 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 05:26:19.009 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 05:26:39.230 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Raj3b3ad
+2025-10-12 05:26:39.230 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 05:26:40.129 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 05:26:40.680 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:26:41.759 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 05:26:41.767 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 05:26:42.511 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 05:27:26.431 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 05:27:27.284 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:27:27.284 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 05:27:28.831 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 05:27:28.844 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:27:28.844 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:27:33.877 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:28:34.083 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 05:28:35.285 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:28:35.286 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 05:28:36.113 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 05:28:36.119 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:28:36.119 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:28:41.141 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:28:43.987 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with empty email and password test
+2025-10-12 05:28:44.723 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:28:44.724 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with empty email and password data
+2025-10-12 05:28:45.951 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 05:28:45.970 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with empty email and password signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:28:45.971 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:33:55.416 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Rajc773d
+2025-10-12 05:33:55.416 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 05:33:56.182 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 05:33:57.475 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:33:58.702 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 05:33:58.720 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 05:34:00.214 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 05:35:00.619 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 05:35:01.379 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:35:01.380 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 05:35:02.955 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 05:35:02.971 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:35:02.971 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:35:08.004 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:35:09.320 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Raj0bcb7
+2025-10-12 05:35:09.320 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 05:35:10.459 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 05:35:11.243 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:35:12.430 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 05:35:12.440 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 05:35:13.283 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 05:36:18.901 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with empty email and password test
+2025-10-12 05:36:19.741 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:36:19.743 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with empty email and password data
+2025-10-12 05:36:21.539 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 05:36:21.552 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with empty email and password signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:36:21.552 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:36:26.583 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:36:57.282 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with InvalidEmailFormat test
+2025-10-12 05:36:58.115 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:36:58.115 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with InvalidEmailFormat data
+2025-10-12 05:37:00.093 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with InvalidEmailFormat data
+2025-10-12 05:37:00.105 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with InvalidEmailFormat signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:37:00.105 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:37:05.124 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 05:37:10.581 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 05:37:11.593 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 05:37:11.594 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 05:37:12.137 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 05:37:12.141 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 05:37:12.141 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 05:37:17.149 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 17:13:45.101 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Raja4e71
+2025-10-12 17:13:45.104 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 17:13:45.691 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 17:13:46.389 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 17:13:47.377 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 17:13:47.385 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 17:13:48.162 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 17:14:21.048 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Raj56e5e
+2025-10-12 17:14:21.050 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 17:14:22.027 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 17:14:22.417 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 17:14:23.351 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 17:14:23.358 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 17:14:23.946 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 17:14:36.108 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 17:14:36.821 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 17:14:36.822 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 17:14:37.924 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 17:14:37.935 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 17:14:37.935 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 17:14:42.950 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 17:15:35.472 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 17:15:36.254 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 17:15:36.254 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 17:15:36.667 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 17:15:36.673 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 17:15:36.673 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 17:15:41.687 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 17:15:47.174 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with empty email and password test
+2025-10-12 17:15:47.964 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 17:15:47.964 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with empty email and password data
+2025-10-12 17:15:48.802 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 17:15:48.810 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with empty email and password signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 17:15:48.811 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 17:15:53.858 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 17:16:23.150 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with InvalidEmailFormat test
+2025-10-12 17:16:23.763 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 17:16:23.763 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with InvalidEmailFormat data
+2025-10-12 17:16:24.492 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with InvalidEmailFormat data
+2025-10-12 17:16:24.492 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with InvalidEmailFormat signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 17:16:24.492 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 17:16:29.519 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 17:17:02.041 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with empty email and password test
+2025-10-12 17:17:02.811 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 17:17:02.811 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with empty email and password data
+2025-10-12 17:17:03.138 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 17:17:03.138 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with empty email and password signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 17:17:03.138 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 17:17:08.151 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 17:17:45.205 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with InvalidEmailFormat test
+2025-10-12 17:17:46.044 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 17:17:46.044 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with InvalidEmailFormat data
+2025-10-12 17:17:46.344 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with InvalidEmailFormat data
+2025-10-12 17:17:46.346 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with InvalidEmailFormat signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 17:17:46.346 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 17:17:51.351 [TestNG-tests-2] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 17:19:21.834 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Raj3b5cf
+2025-10-12 17:19:21.836 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-12 17:19:22.609 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-12 17:19:23.007 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 17:19:23.944 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-12 17:19:23.958 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-12 17:19:24.660 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-12 17:20:29.428 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-12 17:20:30.290 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 17:20:30.290 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-12 17:20:30.726 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 17:20:30.726 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 17:20:30.726 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 17:20:35.745 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 17:21:49.920 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with empty email and password test
+2025-10-12 17:21:50.684 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 17:21:50.684 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with empty email and password data
+2025-10-12 17:21:51.003 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-12 17:21:51.005 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with empty email and password signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 17:21:51.005 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 17:21:56.018 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-12 17:22:32.630 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with InvalidEmailFormat test
+2025-10-12 17:22:33.389 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-12 17:22:33.389 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with InvalidEmailFormat data
+2025-10-12 17:22:33.686 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with InvalidEmailFormat data
+2025-10-12 17:22:33.686 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with InvalidEmailFormat signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-12 17:22:33.686 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-12 17:22:38.707 [TestNG-tests-1] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-13 00:17:12.262 [main] INFO  com.contactmanagement.tests.SignUpTest - Starting testSignUpWithValidInputs for user: Nat Raj5a0a1
+2025-10-13 00:17:12.264 [main] INFO  com.contactmanagement.tests.SignUpTest - Navigating to signup page
+2025-10-13 00:17:12.929 [main] INFO  com.contactmanagement.tests.SignUpTest - Filling signup form with provided data
+2025-10-13 00:17:13.575 [main] INFO  com.contactmanagement.tests.SignUpTest - Current URL after signup: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-13 00:17:14.653 [main] INFO  com.contactmanagement.tests.SignUpTest - Waiting for redirect to contact list
+2025-10-13 00:17:14.662 [main] INFO  com.contactmanagement.tests.SignUpTest - Initiating logout
+2025-10-13 00:17:15.470 [main] INFO  com.contactmanagement.tests.SignUpTest - Signup and contact addition test completed successfully
+2025-10-13 00:17:18.389 [main] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with already registered email data test
+2025-10-13 00:17:19.001 [main] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-13 00:17:19.002 [main] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with invalid data
+2025-10-13 00:17:19.680 [main] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-13 00:17:19.686 [main] INFO  com.contactmanagement.tests.SignUpTest - Current URL after invalid signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-13 00:17:19.686 [main] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-13 00:17:24.726 [main] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-13 00:17:27.376 [main] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with empty email and password test
+2025-10-13 00:17:28.039 [main] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-13 00:17:28.040 [main] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with empty email and password data
+2025-10-13 00:17:28.727 [main] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with invalid data
+2025-10-13 00:17:28.732 [main] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with empty email and password signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-13 00:17:28.732 [main] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-13 00:17:33.775 [main] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior
+2025-10-13 00:17:36.226 [main] INFO  com.contactmanagement.tests.SignUpTest - Starting registration with InvalidEmailFormat test
+2025-10-13 00:17:36.900 [main] INFO  com.contactmanagement.tests.SignUpTest - Navigated to signup page
+2025-10-13 00:17:36.900 [main] INFO  com.contactmanagement.tests.SignUpTest - Attempting signup with InvalidEmailFormat data
+2025-10-13 00:17:37.616 [main] INFO  com.contactmanagement.tests.SignUpTest - Signup form submitted with InvalidEmailFormat data
+2025-10-13 00:17:37.624 [main] INFO  com.contactmanagement.tests.SignUpTest - Current URL after with InvalidEmailFormat signup attempt: https://thinking-tester-contact-list.herokuapp.com/addUser
+2025-10-13 00:17:37.625 [main] INFO  com.contactmanagement.tests.SignUpTest - Registration correctly failed - not redirected to contact list
+2025-10-13 00:17:42.657 [main] INFO  com.contactmanagement.tests.SignUpTest - No error element found, which may be expected behavior

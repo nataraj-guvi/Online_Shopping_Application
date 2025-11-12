@@ -1,0 +1,1049 @@
+2025-11-12 23:56:22.968 [main] INFO  com.demoblaze.base.TestBase - Test Suite Started - Extent Report Initialized
+2025-11-12 23:56:22.986 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Test Suite STARTED: Chrome Tests
+2025-11-12 23:56:22.986 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Total Tests: 11
+2025-11-12 23:56:24.533 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testSignupWithValidDetails
+2025-11-12 23:56:24.535 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testValidLogin
+2025-11-12 23:56:24.543 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:56:24.541 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:56:24.550 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-12 23:56:24.553 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-12 23:56:24.564 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-2
+2025-11-12 23:56:24.564 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-3
+2025-11-12 23:56:24.564 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testPlaceOrderWithValidDetails
+2025-11-12 23:56:24.566 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:56:24.566 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-12 23:56:24.566 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-1
+2025-11-12 23:56:29.906 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-12 23:56:29.907 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:56:29.917 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-12 23:56:29.917 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:56:29.928 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-12 23:56:29.928 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:56:30.076 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:56:30.167 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:56:30.193 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:56:30.823 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:56:30.838 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:56:30.901 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-12 23:56:30.935 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testValidLogin
+2025-11-12 23:56:30.957 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Starting valid login test with data provider keys: nataraj.guvi, 1
+2025-11-12 23:56:30.982 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-12 23:56:30.984 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testPlaceOrderWithValidDetails
+2025-11-12 23:56:30.986 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Starting testPlaceOrderWithValidDetails with username: nataraj.guvi
+2025-11-12 23:56:30.986 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Attempting to login with username: nataraj.guvi
+2025-11-12 23:56:31.641 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:56:31.661 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-12 23:56:31.668 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testSignupWithValidDetails
+2025-11-12 23:56:31.669 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Starting testSignUpWithValidInputs for user: Nataraj66a16 1234591411
+2025-11-12 23:56:31.670 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-12 23:56:33.953 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - User logged in successfully
+2025-11-12 23:56:33.984 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-12 23:56:34.269 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Filling signup form with provided data
+2025-11-12 23:56:35.618 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Retrieved 5 products from Excel data
+2025-11-12 23:56:35.620 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Adding product to cart: Iphone 6 32gb from category: Phones
+2025-11-12 23:56:36.410 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Valid login test passed
+2025-11-12 23:56:36.421 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testValidLogin
+2025-11-12 23:56:36.422 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 5517 ms
+2025-11-12 23:56:36.430 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testSignupWithValidDetails
+2025-11-12 23:56:36.430 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 4767 ms
+2025-11-12 23:56:37.539 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testValidLogin
+2025-11-12 23:56:37.541 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:56:37.541 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-12 23:56:37.541 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-2
+2025-11-12 23:56:37.616 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testInvalidPassword
+2025-11-12 23:56:37.618 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:56:37.620 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-12 23:56:37.620 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-3
+2025-11-12 23:56:38.814 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-12 23:56:38.815 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Product added successfully: Iphone 6 32gb
+2025-11-12 23:56:39.010 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-12 23:56:39.010 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:56:39.201 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-12 23:56:39.202 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:56:39.216 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:56:39.423 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:56:40.229 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Adding product to cart: MacBook Pro from category: Laptops
+2025-11-12 23:56:40.735 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:56:40.742 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-12 23:56:40.751 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testValidLogin
+2025-11-12 23:56:40.752 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Starting Verify sign-up with existing username for user: nataraj.guvi 1
+2025-11-12 23:56:40.752 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-12 23:56:41.137 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:56:41.160 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-12 23:56:41.168 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testInvalidPassword
+2025-11-12 23:56:41.170 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Starting InvalidPassword test with data provider keys: nataraj.guvi, 2
+2025-11-12 23:56:43.506 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-12 23:56:44.064 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testInvalidPassword
+2025-11-12 23:56:44.064 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 2893 ms
+2025-11-12 23:56:44.247 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-12 23:56:44.247 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Product added successfully: MacBook Pro
+2025-11-12 23:56:44.849 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testValidLogin
+2025-11-12 23:56:44.850 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 4106 ms
+2025-11-12 23:56:45.232 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Adding product to cart: Apple monitor 24 from category: Monitors
+2025-11-12 23:56:45.344 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testEmptyFields
+2025-11-12 23:56:45.345 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:56:45.345 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-12 23:56:45.345 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-3
+2025-11-12 23:56:46.730 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-12 23:56:46.730 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:56:46.743 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testEmptyFields
+2025-11-12 23:56:46.745 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:56:46.746 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-12 23:56:46.746 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-2
+2025-11-12 23:56:46.831 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:56:47.595 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:56:47.596 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-12 23:56:47.613 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testEmptyFields
+2025-11-12 23:56:47.629 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Starting EmptyFields test with data provider keys: empty.username, empty.password
+2025-11-12 23:56:48.500 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-12 23:56:48.527 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:56:48.781 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:56:50.340 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:56:50.342 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-12 23:56:50.357 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testEmptyFields
+2025-11-12 23:56:50.357 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Starting sign-up with empty fields for user: empty.username empty.password
+2025-11-12 23:56:50.360 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-12 23:56:50.427 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-12 23:56:50.427 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Product added successfully: Apple monitor 24
+2025-11-12 23:56:51.946 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-12 23:56:52.165 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testEmptyFields
+2025-11-12 23:56:52.165 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 4568 ms
+2025-11-12 23:56:52.647 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Adding product to cart: Nokia lumia 1520 from category: Phones
+2025-11-12 23:56:53.513 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testEmptyFields
+2025-11-12 23:56:53.513 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 3170 ms
+2025-11-12 23:56:53.792 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testInvalidEmailFormat
+2025-11-12 23:56:53.795 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:56:53.795 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-12 23:56:53.795 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-3
+2025-11-12 23:56:55.045 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-12 23:56:55.047 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:56:55.170 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:56:55.526 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:56:55.535 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-12 23:56:55.544 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testInvalidEmailFormat
+2025-11-12 23:56:55.547 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Starting InvalidEmailFormat test with data provider keys: user.com, 1
+2025-11-12 23:56:55.705 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-12 23:56:55.706 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Product added successfully: Nokia lumia 1520
+2025-11-12 23:56:56.510 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Product marked for removal: Nokia lumia 1520
+2025-11-12 23:56:56.511 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to cart to verify added products
+2025-11-12 23:56:58.064 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-12 23:56:58.734 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testInvalidEmailFormat
+2025-11-12 23:56:58.735 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 3198 ms
+2025-11-12 23:56:59.125 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Cart contains 4 products:
+2025-11-12 23:56:59.125 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase -   - Nokia lumia 1520 - 820
+2025-11-12 23:56:59.125 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase -   - MacBook Pro - 1100
+2025-11-12 23:56:59.125 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase -   - Iphone 6 32gb - 790
+2025-11-12 23:56:59.125 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase -   - Apple monitor 24 - 400
+2025-11-12 23:56:59.185 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Cart item count: 4
+2025-11-12 23:56:59.185 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Cart verification passed
+2025-11-12 23:56:59.185 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Removing product before order: Nokia lumia 1520
+2025-11-12 23:56:59.305 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testPasswordFieldMasksInput
+2025-11-12 23:56:59.307 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:56:59.307 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-12 23:56:59.307 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-3
+2025-11-12 23:57:00.377 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-12 23:57:00.383 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:57:00.528 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:57:01.659 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Product removed successfully: Nokia lumia 1520
+2025-11-12 23:57:01.659 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Starting order placement process
+2025-11-12 23:57:01.869 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:57:01.874 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-12 23:57:01.879 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testPasswordFieldMasksInput
+2025-11-12 23:57:01.880 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Starting PasswordFieldMasksInput test with data provider keys: nataraj.guvi, 1
+2025-11-12 23:57:02.109 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Order modal displayed successfully
+2025-11-12 23:57:02.238 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Retrieved order details from Excel
+2025-11-12 23:57:03.504 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-12 23:57:03.617 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testPasswordFieldMasksInput
+2025-11-12 23:57:03.617 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 1742 ms
+2025-11-12 23:57:04.317 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Order form completed with customer details
+2025-11-12 23:57:04.423 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Thank you message verified: Thank you for your purchase!
+2025-11-12 23:57:04.490 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Order placed successfully - Order ID: 8546214, Amount: 2290 USD
+2025-11-12 23:57:24.688 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Purchase completed
+2025-11-12 23:57:24.688 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Confirmation dialog closed
+2025-11-12 23:57:24.688 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Closing order modal
+2025-11-12 23:57:24.688 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Order modal closed successfully
+2025-11-12 23:57:24.704 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Initiating user logout
+2025-11-12 23:57:24.704 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - User logged out successfully
+2025-11-12 23:57:24.705 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - All order scenarios completed successfully!
+2025-11-12 23:57:24.705 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - testPlaceOrderWithValidDetails2 execution completed
+2025-11-12 23:57:24.706 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testPlaceOrderWithValidDetails
+2025-11-12 23:57:24.706 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 53723 ms
+2025-11-12 23:57:25.192 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testPlaceOrderWithEmptyForm
+2025-11-12 23:57:25.193 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:57:25.194 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-12 23:57:25.194 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-1
+2025-11-12 23:57:26.014 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-12 23:57:26.014 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:57:26.052 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:57:27.067 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:57:27.072 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-12 23:57:27.076 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testPlaceOrderWithEmptyForm
+2025-11-12 23:57:27.077 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Starting testPlaceOrderWithEmptyForm with username: nataraj.guvi
+2025-11-12 23:57:27.077 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Attempting to login with username: nataraj.guvi
+2025-11-12 23:57:28.330 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - User logged in successfully
+2025-11-12 23:57:28.408 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Retrieved order flow data with 3 entries
+2025-11-12 23:57:28.410 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Selected product for cart: Samsung galaxy s6 from category: Phones
+2025-11-12 23:57:28.410 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testPlaceOrderWithEmptyForm
+2025-11-12 23:57:28.410 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 1337 ms
+2025-11-12 23:57:28.749 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testCompleteOrderAndNavigationFlow
+2025-11-12 23:57:28.750 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:57:28.750 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-12 23:57:28.750 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-1
+2025-11-12 23:57:29.658 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-12 23:57:29.658 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:57:29.728 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:57:30.655 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:57:30.661 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-12 23:57:30.664 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testCompleteOrderAndNavigationFlow
+2025-11-12 23:57:33.884 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testCompleteOrderAndNavigationFlow
+2025-11-12 23:57:33.884 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 3222 ms
+2025-11-12 23:57:34.268 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Test Suite COMPLETED: Chrome Tests
+2025-11-12 23:57:34.268 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Passed: 11, Failed: 0, Skipped: 0
+2025-11-12 23:57:34.268 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Total execution time: 71295 ms
+2025-11-12 23:57:34.288 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Test Suite STARTED: Firefox Tests
+2025-11-12 23:57:34.288 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Total Tests: 11
+2025-11-12 23:57:34.410 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testPlaceOrderWithValidDetails
+2025-11-12 23:57:34.422 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:57:34.422 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testValidLogin
+2025-11-12 23:57:34.423 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-12 23:57:34.423 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-1
+2025-11-12 23:57:34.424 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:57:34.425 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-12 23:57:34.425 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-3
+2025-11-12 23:57:34.429 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testSignupWithValidDetails
+2025-11-12 23:57:34.430 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:57:34.431 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-12 23:57:34.431 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-2
+2025-11-12 23:57:44.345 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-12 23:57:44.346 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:57:44.654 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:57:45.696 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-12 23:57:45.696 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:57:45.700 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-12 23:57:45.702 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:57:46.027 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:57:46.068 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:57:47.312 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:57:47.330 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-12 23:57:47.331 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testSignupWithValidDetails
+2025-11-12 23:57:47.338 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Starting testSignUpWithValidInputs for user: Nataraj776d8 1234505afb
+2025-11-12 23:57:47.338 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-12 23:57:47.415 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:57:47.424 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-12 23:57:47.426 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testValidLogin
+2025-11-12 23:57:47.432 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Starting valid login test with data provider keys: nataraj.guvi, 1
+2025-11-12 23:57:48.711 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Filling signup form with provided data
+2025-11-12 23:57:48.811 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:57:48.831 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-12 23:57:48.835 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testPlaceOrderWithValidDetails
+2025-11-12 23:57:48.840 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Starting testPlaceOrderWithValidDetails with username: nataraj.guvi
+2025-11-12 23:57:48.841 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Attempting to login with username: nataraj.guvi
+2025-11-12 23:57:49.994 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testSignupWithValidDetails
+2025-11-12 23:57:49.994 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 2662 ms
+2025-11-12 23:57:51.490 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-12 23:57:51.528 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - User logged in successfully
+2025-11-12 23:57:51.824 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Retrieved 5 products from Excel data
+2025-11-12 23:57:51.828 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Adding product to cart: Iphone 6 32gb from category: Phones
+2025-11-12 23:57:51.939 [TestNG-test-Firefox Tests-1] ERROR com.demoblaze.base.TestBase - Error processing product: Iphone 6 32gb - Error: Element <a id="itemc" class="list-group-item" href="#"> is not clickable at point (340,532) because another element <div id="logInModal" class="modal fade show"> obscures it
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [561532ec-8aa5-4665-bfc3-c2b5ae461191, clickElement {id=d2c00351-2454-437b-805b-795e11673167}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30752, moz:profile: C:\Users\91986\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (561532ec-8aa5-4665-bfc3-c2b5ae461191)] -> xpath: //a[contains(text(),'Phones')]]
+Session ID: 561532ec-8aa5-4665-bfc3-c2b5ae461191
+org.openqa.selenium.ElementClickInterceptedException: Element <a id="itemc" class="list-group-item" href="#"> is not clickable at point (340,532) because another element <div id="logInModal" class="modal fade show"> obscures it
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [561532ec-8aa5-4665-bfc3-c2b5ae461191, clickElement {id=d2c00351-2454-437b-805b-795e11673167}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30752, moz:profile: C:\Users\91986\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (561532ec-8aa5-4665-bfc3-c2b5ae461191)] -> xpath: //a[contains(text(),'Phones')]]
+Session ID: 561532ec-8aa5-4665-bfc3-c2b5ae461191
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.demoblaze.pages.CartPage.goToCategory(CartPage.java:74)
+	at com.demoblaze.tests.OrderTest.testPlaceOrderWithValidDetails(OrderTest.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-11-12 23:57:53.388 [TestNG-test-Firefox Tests-1] ERROR com.demoblaze.base.TestBase - Unexpected exception in testPlaceOrderWithValidDetails: Element <a id="itemc" class="list-group-item" href="#"> is not clickable at point (340,532) because another element <div id="logInModal" class="modal fade show"> obscures it
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [561532ec-8aa5-4665-bfc3-c2b5ae461191, clickElement {id=d2c00351-2454-437b-805b-795e11673167}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30752, moz:profile: C:\Users\91986\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (561532ec-8aa5-4665-bfc3-c2b5ae461191)] -> xpath: //a[contains(text(),'Phones')]]
+Session ID: 561532ec-8aa5-4665-bfc3-c2b5ae461191
+org.openqa.selenium.ElementClickInterceptedException: Element <a id="itemc" class="list-group-item" href="#"> is not clickable at point (340,532) because another element <div id="logInModal" class="modal fade show"> obscures it
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [561532ec-8aa5-4665-bfc3-c2b5ae461191, clickElement {id=d2c00351-2454-437b-805b-795e11673167}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30752, moz:profile: C:\Users\91986\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (561532ec-8aa5-4665-bfc3-c2b5ae461191)] -> xpath: //a[contains(text(),'Phones')]]
+Session ID: 561532ec-8aa5-4665-bfc3-c2b5ae461191
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.demoblaze.pages.CartPage.goToCategory(CartPage.java:74)
+	at com.demoblaze.tests.OrderTest.testPlaceOrderWithValidDetails(OrderTest.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-11-12 23:57:53.610 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - testPlaceOrderWithValidDetails2 execution completed
+2025-11-12 23:57:53.612 [TestNG-test-Firefox Tests-1] ERROR com.demoblaze.listeners.TestExecutionLogger -  Test FAILED: testPlaceOrderWithValidDetails
+2025-11-12 23:57:53.612 [TestNG-test-Firefox Tests-1] ERROR com.demoblaze.listeners.TestExecutionLogger - Failure Cause: Test execution failed: Element <a id="itemc" class="list-group-item" href="#"> is not clickable at point (340,532) because another element <div id="logInModal" class="modal fade show"> obscures it
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [561532ec-8aa5-4665-bfc3-c2b5ae461191, clickElement {id=d2c00351-2454-437b-805b-795e11673167}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30752, moz:profile: C:\Users\91986\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (561532ec-8aa5-4665-bfc3-c2b5ae461191)] -> xpath: //a[contains(text(),'Phones')]]
+Session ID: 561532ec-8aa5-4665-bfc3-c2b5ae461191
+2025-11-12 23:57:54.144 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Valid login test passed
+2025-11-12 23:57:54.146 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testValidLogin
+2025-11-12 23:57:54.146 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 6720 ms
+2025-11-12 23:57:54.684 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testValidLogin
+2025-11-12 23:57:54.686 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:57:54.691 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-12 23:57:54.692 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-2
+2025-11-12 23:57:56.367 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testPlaceOrderWithEmptyForm
+2025-11-12 23:57:56.369 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:57:56.369 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-12 23:57:56.369 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-1
+2025-11-12 23:57:56.932 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testInvalidPassword
+2025-11-12 23:57:56.935 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:57:56.936 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-12 23:57:56.937 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-3
+2025-11-12 23:58:00.293 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-12 23:58:00.294 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:58:00.595 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:58:02.050 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:58:02.051 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-12 23:58:02.057 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testValidLogin
+2025-11-12 23:58:02.057 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Starting Verify sign-up with existing username for user: nataraj.guvi 1
+2025-11-12 23:58:02.057 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-12 23:58:02.856 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-12 23:58:02.856 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:58:03.193 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:58:04.051 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-12 23:58:04.055 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:58:04.504 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:58:05.154 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:58:05.183 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-12 23:58:05.186 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testPlaceOrderWithEmptyForm
+2025-11-12 23:58:05.186 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Starting testPlaceOrderWithEmptyForm with username: nataraj.guvi
+2025-11-12 23:58:05.186 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Attempting to login with username: nataraj.guvi
+2025-11-12 23:58:05.802 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:58:05.804 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-12 23:58:05.811 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testInvalidPassword
+2025-11-12 23:58:05.815 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Starting InvalidPassword test with data provider keys: nataraj.guvi, 2
+2025-11-12 23:58:06.563 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testValidLogin
+2025-11-12 23:58:06.579 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 4508 ms
+2025-11-12 23:58:07.161 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-12 23:58:07.935 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - User logged in successfully
+2025-11-12 23:58:08.071 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Retrieved order flow data with 3 entries
+2025-11-12 23:58:08.073 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Selected product for cart: Samsung galaxy s6 from category: Phones
+2025-11-12 23:58:08.073 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testPlaceOrderWithEmptyForm
+2025-11-12 23:58:08.073 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 2889 ms
+2025-11-12 23:58:08.281 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testInvalidPassword
+2025-11-12 23:58:08.281 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 2477 ms
+2025-11-12 23:58:10.167 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testEmptyFields
+2025-11-12 23:58:10.172 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:58:10.172 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-12 23:58:10.172 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-2
+2025-11-12 23:58:10.360 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testCompleteOrderAndNavigationFlow
+2025-11-12 23:58:10.362 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:58:10.364 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-12 23:58:10.366 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-1
+2025-11-12 23:58:10.387 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testEmptyFields
+2025-11-12 23:58:10.388 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:58:10.388 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-12 23:58:10.388 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-3
+2025-11-12 23:58:15.597 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-12 23:58:15.597 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:58:15.911 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:58:16.198 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-12 23:58:16.201 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:58:16.621 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:58:17.477 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:58:17.479 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-12 23:58:17.534 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testEmptyFields
+2025-11-12 23:58:17.534 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Starting sign-up with empty fields for user: empty.username empty.password
+2025-11-12 23:58:17.534 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-12 23:58:17.955 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:58:17.957 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-12 23:58:17.960 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testEmptyFields
+2025-11-12 23:58:17.961 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Starting EmptyFields test with data provider keys: empty.username, empty.password
+2025-11-12 23:58:19.205 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-12 23:58:19.205 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:58:19.504 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:58:20.688 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-12 23:58:20.836 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:58:20.853 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-12 23:58:20.858 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testCompleteOrderAndNavigationFlow
+2025-11-12 23:58:20.905 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testEmptyFields
+2025-11-12 23:58:20.907 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 2948 ms
+2025-11-12 23:58:21.559 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testEmptyFields
+2025-11-12 23:58:21.559 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 4079 ms
+2025-11-12 23:58:25.233 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testInvalidEmailFormat
+2025-11-12 23:58:25.237 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:58:25.237 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-12 23:58:25.237 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-3
+2025-11-12 23:58:31.160 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-12 23:58:31.162 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:58:31.485 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:58:32.666 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:58:32.668 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-12 23:58:32.684 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testInvalidEmailFormat
+2025-11-12 23:58:32.686 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Starting InvalidEmailFormat test with data provider keys: user.com, 1
+2025-11-12 23:58:34.076 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-12 23:58:35.154 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testInvalidEmailFormat
+2025-11-12 23:58:35.154 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 2482 ms
+2025-11-12 23:58:36.910 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testPasswordFieldMasksInput
+2025-11-12 23:58:36.914 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-12 23:58:36.914 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-12 23:58:36.914 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-3
+2025-11-12 23:58:38.624 [TestNG-test-Firefox Tests-1] ERROR com.demoblaze.listeners.TestExecutionLogger -  Test FAILED: testCompleteOrderAndNavigationFlow
+2025-11-12 23:58:38.624 [TestNG-test-Firefox Tests-1] ERROR com.demoblaze.listeners.TestExecutionLogger - Failure Cause: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (8faa32ea-58d9-4790-8d19-edf4467ae0c9)] -> xpath: //h5[text()='New message']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4904, moz:profile: C:\Users\91986\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 8faa32ea-58d9-4790-8d19-edf4467ae0c9
+2025-11-12 23:58:41.328 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-12 23:58:41.328 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-12 23:58:41.640 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-12 23:58:45.379 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-12 23:58:45.380 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-12 23:58:45.381 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testPasswordFieldMasksInput
+2025-11-12 23:58:45.382 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Starting PasswordFieldMasksInput test with data provider keys: nataraj.guvi, 1
+2025-11-12 23:58:46.090 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-12 23:58:46.130 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testPasswordFieldMasksInput
+2025-11-12 23:58:46.131 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 750 ms
+2025-11-12 23:58:50.224 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Test Suite COMPLETED: Firefox Tests
+2025-11-12 23:58:50.224 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Passed: 9, Failed: 2, Skipped: 0
+2025-11-12 23:58:50.224 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Total execution time: 75937 ms
+2025-11-12 23:58:50.608 [main] INFO  com.demoblaze.base.TestBase - Test Suite Completed - Report Generated
+2025-11-13 00:02:18.092 [main] INFO  com.demoblaze.base.TestBase - Test Suite Started - Extent Report Initialized
+2025-11-13 00:02:18.105 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Test Suite STARTED: Chrome Tests
+2025-11-13 00:02:18.106 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Total Tests: 11
+2025-11-13 00:02:19.637 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testSignupWithValidDetails
+2025-11-13 00:02:19.637 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testPlaceOrderWithValidDetails
+2025-11-13 00:02:19.637 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testValidLogin
+2025-11-13 00:02:19.643 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:02:19.643 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:02:19.646 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:02:19.643 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:02:19.646 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-3
+2025-11-13 00:02:19.646 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:02:19.646 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:02:19.646 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-2
+2025-11-13 00:02:19.647 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-1
+2025-11-13 00:02:22.739 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:02:22.739 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:02:22.739 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:02:22.739 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:02:22.739 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:02:22.739 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:02:22.888 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:02:22.952 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:02:22.959 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:02:24.066 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:02:24.354 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:02:24.398 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-13 00:02:24.402 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:02:24.407 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:02:24.439 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testSignupWithValidDetails
+2025-11-13 00:02:24.440 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testValidLogin
+2025-11-13 00:02:24.446 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Starting testSignUpWithValidInputs for user: Natarajb4bdb 1234505505
+2025-11-13 00:02:24.446 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-13 00:02:24.448 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Starting valid login test with data provider keys: nataraj.guvi, 1
+2025-11-13 00:02:24.586 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-13 00:02:24.617 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testPlaceOrderWithValidDetails
+2025-11-13 00:02:24.617 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Starting testPlaceOrderWithValidDetails with username: nataraj.guvi
+2025-11-13 00:02:24.641 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Attempting to login with username: nataraj.guvi
+2025-11-13 00:02:27.550 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Filling signup form with provided data
+2025-11-13 00:02:27.689 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:02:27.691 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - User logged in successfully
+2025-11-13 00:02:27.965 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Retrieved 5 products from Excel data
+2025-11-13 00:02:27.965 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Adding product to cart: Iphone 6 32gb from category: Phones
+2025-11-13 00:02:29.020 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testSignupWithValidDetails
+2025-11-13 00:02:29.025 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 4607 ms
+2025-11-13 00:02:29.532 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Valid login test passed
+2025-11-13 00:02:29.549 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testValidLogin
+2025-11-13 00:02:29.549 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 5129 ms
+2025-11-13 00:02:30.214 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testValidLogin
+2025-11-13 00:02:30.214 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:02:30.214 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:02:30.218 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-2
+2025-11-13 00:02:30.686 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testInvalidPassword
+2025-11-13 00:02:30.698 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:02:30.702 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:02:30.702 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-3
+2025-11-13 00:02:31.382 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-13 00:02:31.383 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Product added successfully: Iphone 6 32gb
+2025-11-13 00:02:31.532 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:02:31.532 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:02:31.623 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:02:32.020 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:02:32.055 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-13 00:02:32.070 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testValidLogin
+2025-11-13 00:02:32.070 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Starting Verify sign-up with existing username for user: nataraj.guvi 1
+2025-11-13 00:02:32.077 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-13 00:02:32.717 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:02:32.719 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:02:32.817 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Adding product to cart: MacBook Pro from category: Laptops
+2025-11-13 00:02:32.838 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:02:34.006 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:02:34.009 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:02:34.038 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testInvalidPassword
+2025-11-13 00:02:34.040 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Starting InvalidPassword test with data provider keys: nataraj.guvi, 2
+2025-11-13 00:02:36.328 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:02:36.570 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testValidLogin
+2025-11-13 00:02:36.571 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 4514 ms
+2025-11-13 00:02:36.892 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testInvalidPassword
+2025-11-13 00:02:36.892 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 2872 ms
+2025-11-13 00:02:37.306 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testEmptyFields
+2025-11-13 00:02:37.309 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:02:37.309 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:02:37.309 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-2
+2025-11-13 00:02:37.500 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-13 00:02:37.501 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Product added successfully: MacBook Pro
+2025-11-13 00:02:37.722 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testEmptyFields
+2025-11-13 00:02:37.724 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:02:37.724 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:02:37.725 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-3
+2025-11-13 00:02:38.491 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Adding product to cart: Apple monitor 24 from category: Monitors
+2025-11-13 00:02:38.651 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:02:38.652 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:02:38.798 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:02:39.169 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:02:39.181 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-13 00:02:39.200 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testEmptyFields
+2025-11-13 00:02:39.206 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Starting sign-up with empty fields for user: empty.username empty.password
+2025-11-13 00:02:39.208 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-13 00:02:39.806 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:02:39.806 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:02:39.975 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:02:42.094 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:02:42.100 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:02:42.102 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testEmptyFields
+2025-11-13 00:02:42.106 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Starting EmptyFields test with data provider keys: empty.username, empty.password
+2025-11-13 00:02:43.324 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-13 00:02:43.325 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Product added successfully: Apple monitor 24
+2025-11-13 00:02:44.212 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testEmptyFields
+2025-11-13 00:02:44.212 [TestNG-test-Chrome Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 5021 ms
+2025-11-13 00:02:44.763 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:02:44.850 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Adding product to cart: Nokia lumia 1520 from category: Phones
+2025-11-13 00:02:44.888 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testEmptyFields
+2025-11-13 00:02:44.888 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 2786 ms
+2025-11-13 00:02:45.913 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testInvalidEmailFormat
+2025-11-13 00:02:45.918 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:02:45.918 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:02:45.918 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-3
+2025-11-13 00:02:46.960 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:02:46.960 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:02:47.054 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:02:47.562 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-13 00:02:47.562 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Product added successfully: Nokia lumia 1520
+2025-11-13 00:02:48.027 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:02:48.030 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:02:48.038 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testInvalidEmailFormat
+2025-11-13 00:02:48.039 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Starting InvalidEmailFormat test with data provider keys: user.com, 1
+2025-11-13 00:02:48.293 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Product marked for removal: Nokia lumia 1520
+2025-11-13 00:02:48.294 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to cart to verify added products
+2025-11-13 00:02:49.820 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:02:50.780 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Cart contains 4 products:
+2025-11-13 00:02:50.780 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase -   - Apple monitor 24 - 400
+2025-11-13 00:02:50.780 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase -   - Nokia lumia 1520 - 820
+2025-11-13 00:02:50.780 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase -   - MacBook Pro - 1100
+2025-11-13 00:02:50.780 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase -   - Iphone 6 32gb - 790
+2025-11-13 00:02:50.844 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Cart item count: 4
+2025-11-13 00:02:50.844 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Cart verification passed
+2025-11-13 00:02:50.844 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Removing product before order: Nokia lumia 1520
+2025-11-13 00:02:50.875 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testInvalidEmailFormat
+2025-11-13 00:02:50.875 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 2841 ms
+2025-11-13 00:02:51.399 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testPasswordFieldMasksInput
+2025-11-13 00:02:51.400 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:02:51.400 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:02:51.400 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-3
+2025-11-13 00:02:52.374 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:02:52.383 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:02:52.507 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:02:52.858 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Product removed successfully: Nokia lumia 1520
+2025-11-13 00:02:52.858 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Starting order placement process
+2025-11-13 00:02:53.398 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Order modal displayed successfully
+2025-11-13 00:02:53.487 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Retrieved order details from Excel
+2025-11-13 00:02:53.532 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:02:53.537 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:02:53.545 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testPasswordFieldMasksInput
+2025-11-13 00:02:53.550 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Starting PasswordFieldMasksInput test with data provider keys: nataraj.guvi, 1
+2025-11-13 00:02:55.178 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:02:55.223 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testPasswordFieldMasksInput
+2025-11-13 00:02:55.223 [TestNG-test-Chrome Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 1686 ms
+2025-11-13 00:02:55.576 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Order form completed with customer details
+2025-11-13 00:02:55.678 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Thank you message verified: Thank you for your purchase!
+2025-11-13 00:02:55.745 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Order placed successfully - Order ID: 7206648, Amount: 2290 USD
+2025-11-13 00:03:16.010 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Purchase completed
+2025-11-13 00:03:16.010 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Confirmation dialog closed
+2025-11-13 00:03:16.010 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Closing order modal
+2025-11-13 00:03:16.010 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Order modal closed successfully
+2025-11-13 00:03:16.010 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Initiating user logout
+2025-11-13 00:03:16.010 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - User logged out successfully
+2025-11-13 00:03:16.010 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - All order scenarios completed successfully!
+2025-11-13 00:03:16.010 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - testPlaceOrderWithValidDetails2 execution completed
+2025-11-13 00:03:16.010 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testPlaceOrderWithValidDetails
+2025-11-13 00:03:16.010 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 51424 ms
+2025-11-13 00:03:16.501 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testPlaceOrderWithEmptyForm
+2025-11-13 00:03:16.502 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:03:16.502 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:03:16.502 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-1
+2025-11-13 00:03:17.277 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:03:17.277 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:03:17.331 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:03:18.381 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:03:18.386 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-13 00:03:18.386 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testPlaceOrderWithEmptyForm
+2025-11-13 00:03:18.386 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Starting testPlaceOrderWithEmptyForm with username: nataraj.guvi
+2025-11-13 00:03:18.386 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Attempting to login with username: nataraj.guvi
+2025-11-13 00:03:19.668 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - User logged in successfully
+2025-11-13 00:03:19.728 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Retrieved order flow data with 3 entries
+2025-11-13 00:03:19.729 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Selected product for cart: Samsung galaxy s6 from category: Phones
+2025-11-13 00:03:19.731 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testPlaceOrderWithEmptyForm
+2025-11-13 00:03:19.731 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 1344 ms
+2025-11-13 00:03:20.136 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testCompleteOrderAndNavigationFlow
+2025-11-13 00:03:20.139 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:03:20.139 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:03:20.139 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Chrome Tests-1
+2025-11-13 00:03:20.892 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:03:20.892 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:03:20.941 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:03:21.918 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:03:21.925 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-13 00:03:21.931 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testCompleteOrderAndNavigationFlow
+2025-11-13 00:03:25.111 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testCompleteOrderAndNavigationFlow
+2025-11-13 00:03:25.111 [TestNG-test-Chrome Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 3183 ms
+2025-11-13 00:03:25.404 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Test Suite COMPLETED: Chrome Tests
+2025-11-13 00:03:25.405 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Passed: 11, Failed: 0, Skipped: 0
+2025-11-13 00:03:25.405 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Total execution time: 67309 ms
+2025-11-13 00:03:25.760 [main] INFO  com.demoblaze.base.TestBase - Test Suite Completed - Report Generated
+2025-11-13 00:03:51.824 [main] INFO  com.demoblaze.base.TestBase - Test Suite Started - Extent Report Initialized
+2025-11-13 00:03:51.841 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Test Suite STARTED: Firefox Tests
+2025-11-13 00:03:51.842 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Total Tests: 11
+2025-11-13 00:03:53.460 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testPlaceOrderWithValidDetails
+2025-11-13 00:03:53.460 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testValidLogin
+2025-11-13 00:03:53.460 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testSignupWithValidDetails
+2025-11-13 00:03:53.467 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:03:53.470 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-13 00:03:53.467 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:03:53.468 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:03:53.471 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-13 00:03:53.472 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-13 00:03:53.472 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-2
+2025-11-13 00:03:53.474 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-1
+2025-11-13 00:03:53.472 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-3
+2025-11-13 00:03:59.901 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-13 00:03:59.902 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:04:00.366 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:04:01.634 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-13 00:04:01.638 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:04:01.857 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-13 00:04:01.866 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:04:02.125 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:04:02.236 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:04:05.587 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:04:05.814 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:04:05.838 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-13 00:04:05.891 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testSignupWithValidDetails
+2025-11-13 00:04:05.916 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Starting testSignUpWithValidInputs for user: Nataraj52f92 12345e6e93
+2025-11-13 00:04:05.921 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:04:05.917 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-13 00:04:05.932 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testValidLogin
+2025-11-13 00:04:05.957 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Starting valid login test with data provider keys: nataraj.guvi, 1
+2025-11-13 00:04:06.604 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:04:06.872 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-13 00:04:06.884 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testPlaceOrderWithValidDetails
+2025-11-13 00:04:06.886 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Starting testPlaceOrderWithValidDetails with username: nataraj.guvi
+2025-11-13 00:04:06.895 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Attempting to login with username: nataraj.guvi
+2025-11-13 00:04:07.377 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Filling signup form with provided data
+2025-11-13 00:04:08.869 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testSignupWithValidDetails
+2025-11-13 00:04:08.870 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 3020 ms
+2025-11-13 00:04:09.089 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - User logged in successfully
+2025-11-13 00:04:09.943 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Retrieved 5 products from Excel data
+2025-11-13 00:04:09.946 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Adding product to cart: Iphone 6 32gb from category: Phones
+2025-11-13 00:04:09.966 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:04:12.401 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Valid login test passed
+2025-11-13 00:04:12.418 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testValidLogin
+2025-11-13 00:04:12.418 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 6497 ms
+2025-11-13 00:04:13.143 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-13 00:04:13.143 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Product added successfully: Iphone 6 32gb
+2025-11-13 00:04:14.198 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Adding product to cart: MacBook Pro from category: Laptops
+2025-11-13 00:04:14.541 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testValidLogin
+2025-11-13 00:04:14.544 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:04:14.546 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-13 00:04:14.546 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-2
+2025-11-13 00:04:15.205 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testInvalidPassword
+2025-11-13 00:04:15.207 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:04:15.207 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-13 00:04:15.207 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-3
+2025-11-13 00:04:16.732 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-13 00:04:16.732 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Product added successfully: MacBook Pro
+2025-11-13 00:04:17.849 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Adding product to cart: Apple monitor 24 from category: Monitors
+2025-11-13 00:04:20.616 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-13 00:04:20.618 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Product added successfully: Apple monitor 24
+2025-11-13 00:04:20.866 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-13 00:04:20.870 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:04:21.220 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:04:21.794 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Adding product to cart: Nokia lumia 1520 from category: Phones
+2025-11-13 00:04:22.303 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-13 00:04:22.321 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:04:22.695 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:04:23.233 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:04:23.233 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-13 00:04:23.256 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testValidLogin
+2025-11-13 00:04:23.257 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Starting Verify sign-up with existing username for user: nataraj.guvi 1
+2025-11-13 00:04:23.261 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-13 00:04:23.960 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:04:23.982 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:04:23.988 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testInvalidPassword
+2025-11-13 00:04:23.992 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Starting InvalidPassword test with data provider keys: nataraj.guvi, 2
+2025-11-13 00:04:25.206 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:04:26.454 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testInvalidPassword
+2025-11-13 00:04:26.454 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 2468 ms
+2025-11-13 00:04:26.497 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-13 00:04:26.497 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Product added successfully: Nokia lumia 1520
+2025-11-13 00:04:27.459 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testValidLogin
+2025-11-13 00:04:27.460 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 4218 ms
+2025-11-13 00:04:28.661 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Product marked for removal: Nokia lumia 1520
+2025-11-13 00:04:28.661 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to cart to verify added products
+2025-11-13 00:04:30.289 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testEmptyFields
+2025-11-13 00:04:30.292 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:04:30.294 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-13 00:04:30.295 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-3
+2025-11-13 00:04:30.605 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testEmptyFields
+2025-11-13 00:04:30.607 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:04:30.607 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-13 00:04:30.609 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-2
+2025-11-13 00:04:31.412 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Cart contains 4 products:
+2025-11-13 00:04:31.412 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase -   - Iphone 6 32gb - 790
+2025-11-13 00:04:31.412 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase -   - MacBook Pro - 1100
+2025-11-13 00:04:31.414 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase -   - Nokia lumia 1520 - 820
+2025-11-13 00:04:31.414 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase -   - Apple monitor 24 - 400
+2025-11-13 00:04:31.458 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Cart item count: 4
+2025-11-13 00:04:31.460 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Cart verification passed
+2025-11-13 00:04:31.460 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Removing product before order: Nokia lumia 1520
+2025-11-13 00:04:33.724 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Product removed successfully: Nokia lumia 1520
+2025-11-13 00:04:33.724 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Starting order placement process
+2025-11-13 00:04:34.212 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Order modal displayed successfully
+2025-11-13 00:04:34.500 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Retrieved order details from Excel
+2025-11-13 00:04:35.361 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Order form completed with customer details
+2025-11-13 00:04:35.485 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Thank you message verified: Thank you for your purchase!
+2025-11-13 00:04:35.536 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Order placed successfully - Order ID: 8527323, Amount: 2290 USD
+2025-11-13 00:04:36.472 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-13 00:04:36.472 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:04:36.779 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:04:38.151 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:04:38.160 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:04:38.170 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testEmptyFields
+2025-11-13 00:04:38.172 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Starting EmptyFields test with data provider keys: empty.username, empty.password
+2025-11-13 00:04:38.457 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-13 00:04:38.457 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:04:38.756 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:04:39.940 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:04:39.947 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-13 00:04:39.953 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testEmptyFields
+2025-11-13 00:04:39.957 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Starting sign-up with empty fields for user: empty.username empty.password
+2025-11-13 00:04:39.957 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-13 00:04:40.698 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:04:41.059 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testEmptyFields
+2025-11-13 00:04:41.076 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 2894 ms
+2025-11-13 00:04:41.526 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testEmptyFields
+2025-11-13 00:04:41.528 [TestNG-test-Firefox Tests-2] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 1578 ms
+2025-11-13 00:04:43.541 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testInvalidEmailFormat
+2025-11-13 00:04:43.543 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:04:43.543 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-13 00:04:43.543 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-3
+2025-11-13 00:04:47.567 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-13 00:04:47.567 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:04:47.941 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:04:49.109 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:04:49.110 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:04:49.117 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testInvalidEmailFormat
+2025-11-13 00:04:49.120 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Starting InvalidEmailFormat test with data provider keys: user.com, 1
+2025-11-13 00:04:50.269 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:04:51.364 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testInvalidEmailFormat
+2025-11-13 00:04:51.364 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 2253 ms
+2025-11-13 00:04:52.878 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testPasswordFieldMasksInput
+2025-11-13 00:04:52.878 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:04:52.878 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-13 00:04:52.878 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-3
+2025-11-13 00:04:55.706 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Purchase completed
+2025-11-13 00:04:55.706 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Confirmation dialog closed
+2025-11-13 00:04:55.706 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Closing order modal
+2025-11-13 00:04:55.706 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Order modal closed successfully
+2025-11-13 00:04:55.726 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Initiating user logout
+2025-11-13 00:04:55.729 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - User logged out successfully
+2025-11-13 00:04:55.729 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - All order scenarios completed successfully!
+2025-11-13 00:04:55.729 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - testPlaceOrderWithValidDetails2 execution completed
+2025-11-13 00:04:55.729 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testPlaceOrderWithValidDetails
+2025-11-13 00:04:55.729 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 48856 ms
+2025-11-13 00:04:56.957 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-13 00:04:56.959 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:04:57.254 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:04:57.958 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testPlaceOrderWithEmptyForm
+2025-11-13 00:04:57.965 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:04:57.965 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-13 00:04:57.965 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-1
+2025-11-13 00:04:58.575 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:04:58.594 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:04:58.619 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testPasswordFieldMasksInput
+2025-11-13 00:04:58.621 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Starting PasswordFieldMasksInput test with data provider keys: nataraj.guvi, 1
+2025-11-13 00:04:59.920 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:05:00.000 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testPasswordFieldMasksInput
+2025-11-13 00:05:00.004 [TestNG-test-Firefox Tests-3] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 1401 ms
+2025-11-13 00:05:03.639 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-13 00:05:03.639 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:05:03.942 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:05:05.088 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:05:05.097 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-13 00:05:05.099 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testPlaceOrderWithEmptyForm
+2025-11-13 00:05:05.101 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Starting testPlaceOrderWithEmptyForm with username: nataraj.guvi
+2025-11-13 00:05:05.101 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Attempting to login with username: nataraj.guvi
+2025-11-13 00:05:06.304 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - User logged in successfully
+2025-11-13 00:05:06.391 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Retrieved order flow data with 3 entries
+2025-11-13 00:05:06.391 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Selected product for cart: Samsung galaxy s6 from category: Phones
+2025-11-13 00:05:06.392 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger -  Test PASSED: testPlaceOrderWithEmptyForm
+2025-11-13 00:05:06.394 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Execution Time: 1294 ms
+2025-11-13 00:05:07.641 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testCompleteOrderAndNavigationFlow
+2025-11-13 00:05:07.642 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:05:07.642 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Initializing browser: firefox
+2025-11-13 00:05:07.642 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Thread: TestNG-test-Firefox Tests-1
+2025-11-13 00:05:10.852 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - FirefoxDriver initialized successfully
+2025-11-13 00:05:10.852 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:05:11.141 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:05:12.359 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:05:12.365 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-13 00:05:12.366 [TestNG-test-Firefox Tests-1] INFO  com.demoblaze.listeners.TestExecutionLogger - Test STARTED: testCompleteOrderAndNavigationFlow
+2025-11-13 00:05:29.691 [TestNG-test-Firefox Tests-1] ERROR com.demoblaze.listeners.TestExecutionLogger -  Test FAILED: testCompleteOrderAndNavigationFlow
+2025-11-13 00:05:29.691 [TestNG-test-Firefox Tests-1] ERROR com.demoblaze.listeners.TestExecutionLogger - Failure Cause: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (eb9fdef6-1af9-4b53-81f3-9b269e735b79)] -> xpath: //h5[text()='New message']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17920, moz:profile: C:\Users\91986\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: eb9fdef6-1af9-4b53-81f3-9b269e735b79
+2025-11-13 00:05:30.696 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Test Suite COMPLETED: Firefox Tests
+2025-11-13 00:05:30.697 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Passed: 10, Failed: 1, Skipped: 0
+2025-11-13 00:05:30.697 [main] INFO  com.demoblaze.listeners.TestExecutionLogger - Total execution time: 98868 ms
+2025-11-13 00:05:31.117 [main] INFO  com.demoblaze.base.TestBase - Test Suite Completed - Report Generated
+2025-11-13 00:39:57.779 [main] INFO  com.demoblaze.base.TestBase - Test Suite Started - Extent Report Initialized
+2025-11-13 00:39:59.452 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testValidLogin
+2025-11-13 00:39:59.456 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:39:59.458 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:39:59.459 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+2025-11-13 00:40:06.172 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:40:06.174 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:40:06.224 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:40:07.265 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:40:07.316 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:40:07.320 [main] INFO  com.demoblaze.base.TestBase - Starting valid login test with data provider keys: nataraj.guvi, 1
+2025-11-13 00:40:08.627 [main] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:40:10.221 [main] INFO  com.demoblaze.base.TestBase - Valid login test passed
+2025-11-13 00:40:10.661 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testInvalidPassword
+2025-11-13 00:40:10.665 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:40:10.665 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:40:10.665 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+2025-11-13 00:40:11.479 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:40:11.480 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:40:11.536 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:40:12.497 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:40:12.498 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:40:12.500 [main] INFO  com.demoblaze.base.TestBase - Starting InvalidPassword test with data provider keys: nataraj.guvi, 2
+2025-11-13 00:40:13.759 [main] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:40:15.250 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testEmptyFields
+2025-11-13 00:40:15.251 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:40:15.251 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:40:15.251 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+2025-11-13 00:40:16.329 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:40:16.330 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:40:16.382 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:40:19.255 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:40:19.257 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:40:19.258 [main] INFO  com.demoblaze.base.TestBase - Starting EmptyFields test with data provider keys: empty.username, empty.password
+2025-11-13 00:40:20.405 [main] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:40:20.932 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testInvalidEmailFormat
+2025-11-13 00:40:20.933 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:40:20.934 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:40:20.934 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+2025-11-13 00:40:21.941 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:40:21.941 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:40:21.987 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:40:22.936 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:40:22.940 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:40:22.942 [main] INFO  com.demoblaze.base.TestBase - Starting InvalidEmailFormat test with data provider keys: user.com, 1
+2025-11-13 00:40:24.176 [main] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:40:25.070 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testPasswordFieldMasksInput
+2025-11-13 00:40:25.071 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:40:25.072 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:40:25.072 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+2025-11-13 00:40:26.219 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:40:26.220 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:40:26.256 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:40:27.238 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:40:27.239 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+2025-11-13 00:40:27.241 [main] INFO  com.demoblaze.base.TestBase - Starting PasswordFieldMasksInput test with data provider keys: nataraj.guvi, 1
+2025-11-13 00:40:28.550 [main] INFO  com.demoblaze.base.TestBase - Attempting login
+2025-11-13 00:40:28.925 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testPlaceOrderWithValidDetails
+2025-11-13 00:40:28.926 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:40:28.926 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:40:28.927 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+2025-11-13 00:40:29.689 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:40:29.690 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:40:29.750 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:40:30.756 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:40:30.776 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-13 00:40:30.777 [main] INFO  com.demoblaze.base.TestBase - Starting testPlaceOrderWithValidDetails with username: nataraj.guvi
+2025-11-13 00:40:30.778 [main] INFO  com.demoblaze.base.TestBase - Attempting to login with username: nataraj.guvi
+2025-11-13 00:40:32.002 [main] INFO  com.demoblaze.base.TestBase - User logged in successfully
+2025-11-13 00:40:32.041 [main] INFO  com.demoblaze.base.TestBase - Retrieved 5 products from Excel data
+2025-11-13 00:40:32.041 [main] INFO  com.demoblaze.base.TestBase - Adding product to cart: Iphone 6 32gb from category: Phones
+2025-11-13 00:40:35.873 [main] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-13 00:40:35.874 [main] INFO  com.demoblaze.base.TestBase - Product added successfully: Iphone 6 32gb
+2025-11-13 00:40:36.475 [main] INFO  com.demoblaze.base.TestBase - Adding product to cart: MacBook Pro from category: Laptops
+2025-11-13 00:40:38.299 [main] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-13 00:40:38.300 [main] INFO  com.demoblaze.base.TestBase - Product added successfully: MacBook Pro
+2025-11-13 00:40:38.796 [main] INFO  com.demoblaze.base.TestBase - Adding product to cart: Apple monitor 24 from category: Monitors
+2025-11-13 00:40:41.644 [main] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-13 00:40:41.644 [main] INFO  com.demoblaze.base.TestBase - Product added successfully: Apple monitor 24
+2025-11-13 00:40:42.740 [main] INFO  com.demoblaze.base.TestBase - Adding product to cart: Nokia lumia 1520 from category: Phones
+2025-11-13 00:40:44.586 [main] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+2025-11-13 00:40:44.586 [main] INFO  com.demoblaze.base.TestBase - Product added successfully: Nokia lumia 1520
+2025-11-13 00:40:45.415 [main] INFO  com.demoblaze.base.TestBase - Product marked for removal: Nokia lumia 1520
+2025-11-13 00:40:45.416 [main] INFO  com.demoblaze.base.TestBase - Navigating to cart to verify added products
+2025-11-13 00:40:47.480 [main] INFO  com.demoblaze.base.TestBase - Cart contains 4 products:
+2025-11-13 00:40:47.481 [main] INFO  com.demoblaze.base.TestBase -   - Apple monitor 24 - 400
+2025-11-13 00:40:47.481 [main] INFO  com.demoblaze.base.TestBase -   - MacBook Pro - 1100
+2025-11-13 00:40:47.481 [main] INFO  com.demoblaze.base.TestBase -   - Iphone 6 32gb - 790
+2025-11-13 00:40:47.481 [main] INFO  com.demoblaze.base.TestBase -   - Nokia lumia 1520 - 820
+2025-11-13 00:40:47.508 [main] INFO  com.demoblaze.base.TestBase - Cart item count: 4
+2025-11-13 00:40:47.509 [main] INFO  com.demoblaze.base.TestBase - Cart verification passed
+2025-11-13 00:40:47.509 [main] INFO  com.demoblaze.base.TestBase - Removing product before order: Nokia lumia 1520
+2025-11-13 00:40:49.599 [main] INFO  com.demoblaze.base.TestBase - Product removed successfully: Nokia lumia 1520
+2025-11-13 00:40:49.599 [main] INFO  com.demoblaze.base.TestBase - Starting order placement process
+2025-11-13 00:40:50.091 [main] INFO  com.demoblaze.base.TestBase - Order modal displayed successfully
+2025-11-13 00:40:50.152 [main] INFO  com.demoblaze.base.TestBase - Retrieved order details from Excel
+2025-11-13 00:40:50.985 [main] INFO  com.demoblaze.base.TestBase - Order form completed with customer details
+2025-11-13 00:40:51.022 [main] INFO  com.demoblaze.base.TestBase - Thank you message verified: Thank you for your purchase!
+2025-11-13 00:40:51.061 [main] INFO  com.demoblaze.base.TestBase - Order placed successfully - Order ID: 9511383, Amount: 2290 USD
+2025-11-13 00:41:11.246 [main] INFO  com.demoblaze.base.TestBase - Purchase completed
+2025-11-13 00:41:11.248 [main] INFO  com.demoblaze.base.TestBase - Confirmation dialog closed
+2025-11-13 00:41:11.248 [main] INFO  com.demoblaze.base.TestBase - Closing order modal
+2025-11-13 00:41:11.248 [main] INFO  com.demoblaze.base.TestBase - Order modal closed successfully
+2025-11-13 00:41:11.258 [main] INFO  com.demoblaze.base.TestBase - Initiating user logout
+2025-11-13 00:41:11.258 [main] INFO  com.demoblaze.base.TestBase - User logged out successfully
+2025-11-13 00:41:11.258 [main] INFO  com.demoblaze.base.TestBase - All order scenarios completed successfully!
+2025-11-13 00:41:11.258 [main] INFO  com.demoblaze.base.TestBase - testPlaceOrderWithValidDetails2 execution completed
+2025-11-13 00:41:11.613 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testPlaceOrderWithEmptyForm
+2025-11-13 00:41:11.616 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:41:11.616 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:41:11.616 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+2025-11-13 00:41:12.544 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:41:12.544 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:41:12.592 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:41:13.555 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:41:13.558 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-13 00:41:13.559 [main] INFO  com.demoblaze.base.TestBase - Starting testPlaceOrderWithEmptyForm with username: nataraj.guvi
+2025-11-13 00:41:13.560 [main] INFO  com.demoblaze.base.TestBase - Attempting to login with username: nataraj.guvi
+2025-11-13 00:41:14.851 [main] INFO  com.demoblaze.base.TestBase - User logged in successfully
+2025-11-13 00:41:14.902 [main] INFO  com.demoblaze.base.TestBase - Retrieved order flow data with 3 entries
+2025-11-13 00:41:14.903 [main] INFO  com.demoblaze.base.TestBase - Selected product for cart: Samsung galaxy s6 from category: Phones
+2025-11-13 00:41:15.155 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testCompleteOrderAndNavigationFlow
+2025-11-13 00:41:15.156 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:41:15.156 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:41:15.156 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+2025-11-13 00:41:16.063 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:41:16.063 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:41:16.097 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:41:17.182 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:41:17.187 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+2025-11-13 00:41:20.511 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testSignupWithValidDetails
+2025-11-13 00:41:20.512 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:41:20.513 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:41:20.513 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+2025-11-13 00:41:21.304 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:41:21.304 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:41:21.342 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:41:22.316 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:41:22.323 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-13 00:41:22.324 [main] INFO  com.demoblaze.base.TestBase - Starting testSignUpWithValidInputs for user: Natarajed321 1234536e06
+2025-11-13 00:41:22.324 [main] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-13 00:41:23.558 [main] INFO  com.demoblaze.base.TestBase - Filling signup form with provided data
+2025-11-13 00:41:25.145 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testValidLogin
+2025-11-13 00:41:25.146 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:41:25.146 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:41:25.146 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+2025-11-13 00:41:25.927 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:41:25.928 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:41:25.971 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:41:26.906 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:41:26.907 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-13 00:41:26.908 [main] INFO  com.demoblaze.base.TestBase - Starting Verify sign-up with existing username for user: nataraj.guvi 1
+2025-11-13 00:41:26.908 [main] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-13 00:41:29.139 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testEmptyFields
+2025-11-13 00:41:29.140 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+2025-11-13 00:41:29.140 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+2025-11-13 00:41:29.140 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+2025-11-13 00:41:30.188 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+2025-11-13 00:41:30.189 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+2025-11-13 00:41:30.237 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+2025-11-13 00:41:30.940 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+2025-11-13 00:41:30.942 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+2025-11-13 00:41:30.943 [main] INFO  com.demoblaze.base.TestBase - Starting sign-up with empty fields for user: empty.username empty.password
+2025-11-13 00:41:30.943 [main] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+2025-11-13 00:41:32.873 [main] INFO  com.demoblaze.base.TestBase - Test Suite Completed - Report Generated

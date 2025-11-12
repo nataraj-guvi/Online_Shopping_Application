@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Online_Shopping_Application Suite" verbose="1" parallel="classes" thread-count="3" preserve-order="true">
+
+	<listeners>
+		<listener class-name="com.demoblaze.listeners.TestListener" />
+		<listener class-name="com.demoblaze.listeners.TestExecutionLogger" />
+	</listeners>
+	
+	<parameter name="valid.username" value="nataraj.guvi" />
+	<parameter name="valid.password" value="1" />
+
+	<test name="Chrome Tests"  preserve-order="true" enabled="false">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.demoblaze.tests.SignUpTest"/>
+			<class name="com.demoblaze.tests.LoginTest"/>
+			<class name="com.demoblaze.tests.OrderTest" />
+		</classes>
+	</test>
+	<test name="Firefox Tests"  preserve-order="true" enabled="true">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.demoblaze.tests.SignUpTest"/>
+			<class name="com.demoblaze.tests.LoginTest"/>
+			<class name="com.demoblaze.tests.OrderTest" />
+		</classes>
+	</test>
+	<test name="Edge Tests"  preserve-order="true" enabled="false">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="com.demoblaze.tests.SignUpTest"/>
+			<class name="com.demoblaze.tests.LoginTest"/>
+			<class name="com.demoblaze.tests.OrderTest" />
+		</classes>
+	</test>
+
+	<test name="Safari Tests"  preserve-order="true" enabled="false">
+		<parameter name="browser" value="safari" />
+		<classes>
+			<class name="com.demoblaze.tests.SignUpTest"/>
+			<class name="com.demoblaze.tests.LoginTest"/>
+			<class name="com.demoblaze.tests.OrderTest" />
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Online_Shopping_Application_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Online_Shopping_Application Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Online_Shopping_Application_Suite" class="navigator-link ">
+                    <span>C:\Users\91986\eclipse-workspace\Online_Shopping_Application\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Online_Shopping_Application_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Online_Shopping_Application_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Online_Shopping_Application_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Online_Shopping_Application_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Online_Shopping_Application_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Online_Shopping_Application_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Online_Shopping_Application_Suite" class="hide-methods failed suite-Online_Shopping_Application_Suite"> (hide)</a> <!-- hide-methods failed suite-Online_Shopping_Application_Suite -->
+                      <a href="#" panel-name="suite-Online_Shopping_Application_Suite" class="show-methods failed suite-Online_Shopping_Application_Suite"> (show)</a> <!-- show-methods failed suite-Online_Shopping_Application_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Online_Shopping_Application_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Shopping_Application_Suite" title="com.demoblaze.tests.OrderTest" class="method navigator-link" hash-for-method="testCompleteOrderAndNavigationFlow(nataraj.guvi, 1)">testCompleteOrderAndNavigationFlow(nataraj.guvi, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Online_Shopping_Application_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Online_Shopping_Application_Suite" class="hide-methods passed suite-Online_Shopping_Application_Suite"> (hide)</a> <!-- hide-methods passed suite-Online_Shopping_Application_Suite -->
+                      <a href="#" panel-name="suite-Online_Shopping_Application_Suite" class="show-methods passed suite-Online_Shopping_Application_Suite"> (show)</a> <!-- show-methods passed suite-Online_Shopping_Application_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Online_Shopping_Application_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Shopping_Application_Suite" title="com.demoblaze.tests.SignUpTest" class="method navigator-link" hash-for-method="testEmptyFields(empty.username, empty.password)">testEmptyFields(empty.username, empty.password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Shopping_Application_Suite" title="com.demoblaze.tests.LoginTest" class="method navigator-link" hash-for-method="testEmptyFields(empty.username, empty.password)">testEmptyFields(empty.username, empty.password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Shopping_Application_Suite" title="com.demoblaze.tests.LoginTest" class="method navigator-link" hash-for-method="testInvalidEmailFormat(user.com, 1)">testInvalidEmailFormat(user.com, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Shopping_Application_Suite" title="com.demoblaze.tests.LoginTest" class="method navigator-link" hash-for-method="testInvalidPassword(nataraj.guvi, 2)">testInvalidPassword(nataraj.guvi, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Shopping_Application_Suite" title="com.demoblaze.tests.LoginTest" class="method navigator-link" hash-for-method="testPasswordFieldMasksInput(nataraj.guvi, 1)">testPasswordFieldMasksInput(nataraj.guvi, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Shopping_Application_Suite" title="com.demoblaze.tests.OrderTest" class="method navigator-link" hash-for-method="testPlaceOrderWithEmptyForm(nataraj.guvi, 1)">testPlaceOrderWithEmptyForm(nataraj.guvi, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Shopping_Application_Suite" title="com.demoblaze.tests.OrderTest" class="method navigator-link" hash-for-method="testPlaceOrderWithValidDetails(nataraj.guvi, 1)">testPlaceOrderWithValidDetails(nataraj.guvi, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Shopping_Application_Suite" title="com.demoblaze.tests.SignUpTest" class="method navigator-link" hash-for-method="testSignupWithValidDetails(Nataraj52f92, 12345e6e93)">testSignupWithValidDetails(Nataraj52f92, 12345e6e93)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Shopping_Application_Suite" title="com.demoblaze.tests.LoginTest" class="method navigator-link" hash-for-method="testValidLogin(nataraj.guvi, 1)">testValidLogin(nataraj.guvi, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Online_Shopping_Application_Suite" title="com.demoblaze.tests.SignUpTest" class="method navigator-link" hash-for-method="testValidLogin(nataraj.guvi, 1)">testValidLogin(nataraj.guvi, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Online_Shopping_Application_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Online_Shopping_Application_Suite" class="panel Online_Shopping_Application_Suite">
+          <div class="suite-Online_Shopping_Application_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.demoblaze.tests.OrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompleteOrderAndNavigationFlow(nataraj.guvi, 1)">
+                  </a> <!-- testCompleteOrderAndNavigationFlow(nataraj.guvi, 1) -->
+                  <span class="method-name">testCompleteOrderAndNavigationFlow</span>
+                  <span class="parameters">(nataraj.guvi,1)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (eb9fdef6-1af9-4b53-81f3-9b269e735b79)] -&gt; xpath: //h5[text()=&apos;New message&apos;]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17920, moz:profile: C:\Users\91986\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: eb9fdef6-1af9-4b53-81f3-9b269e735b79
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.demoblaze.pages.HomePage.isContactModalDisplayed(HomePage.java:361)
+	at com.demoblaze.tests.OrderTest.lambda$2(OrderTest.java:302)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.demoblaze.utils.WaitUtils.waitForCondition(WaitUtils.java:91)
+	at com.demoblaze.tests.OrderTest.waitForContactModalToLoad(OrderTest.java:301)
+	at com.demoblaze.tests.OrderTest.testCompleteOrderAndNavigationFlow(OrderTest.java:281)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Online_Shopping_Application_Suite-class-failed -->
+          <div class="suite-Online_Shopping_Application_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demoblaze.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFields(empty.username, empty.password)">
+                  </a> <!-- testEmptyFields(empty.username, empty.password) -->
+                  <span class="method-name">testEmptyFields</span>
+                  <span class="parameters">(empty.username,empty.password)</span>
+                  <em>
+(Verify login with EmptyFields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEmailFormat(user.com, 1)">
+                  </a> <!-- testInvalidEmailFormat(user.com, 1) -->
+                  <span class="method-name">testInvalidEmailFormat</span>
+                  <span class="parameters">(user.com,1)</span>
+                  <em>
+(Verify login with InvalidEmailFormat)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidPassword(nataraj.guvi, 2)">
+                  </a> <!-- testInvalidPassword(nataraj.guvi, 2) -->
+                  <span class="method-name">testInvalidPassword</span>
+                  <span class="parameters">(nataraj.guvi,2)</span>
+                  <em>
+(Verify login with incorrect password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordFieldMasksInput(nataraj.guvi, 1)">
+                  </a> <!-- testPasswordFieldMasksInput(nataraj.guvi, 1) -->
+                  <span class="method-name">testPasswordFieldMasksInput</span>
+                  <span class="parameters">(nataraj.guvi,1)</span>
+                  <em>
+(Verify password field masks input)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLogin(nataraj.guvi, 1)">
+                  </a> <!-- testValidLogin(nataraj.guvi, 1) -->
+                  <span class="method-name">testValidLogin</span>
+                  <span class="parameters">(nataraj.guvi,1)</span>
+                  <em>
+(Verify login with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Online_Shopping_Application_Suite-class-passed -->
+          <div class="suite-Online_Shopping_Application_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demoblaze.tests.SignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFields(empty.username, empty.password)">
+                  </a> <!-- testEmptyFields(empty.username, empty.password) -->
+                  <span class="method-name">testEmptyFields</span>
+                  <span class="parameters">(empty.username,empty.password)</span>
+                  <em>
+(Verify sign-up with empty fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupWithValidDetails(Nataraj52f92, 12345e6e93)">
+                  </a> <!-- testSignupWithValidDetails(Nataraj52f92, 12345e6e93) -->
+                  <span class="method-name">testSignupWithValidDetails</span>
+                  <span class="parameters">(Nataraj52f92,12345e6e93)</span>
+                  <em>
+(Verify user sign-up with unique credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLogin(nataraj.guvi, 1)">
+                  </a> <!-- testValidLogin(nataraj.guvi, 1) -->
+                  <span class="method-name">testValidLogin</span>
+                  <span class="parameters">(nataraj.guvi,1)</span>
+                  <em>
+(Verify sign-up with existing username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Online_Shopping_Application_Suite-class-passed -->
+          <div class="suite-Online_Shopping_Application_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demoblaze.tests.OrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPlaceOrderWithEmptyForm(nataraj.guvi, 1)">
+                  </a> <!-- testPlaceOrderWithEmptyForm(nataraj.guvi, 1) -->
+                  <span class="method-name">testPlaceOrderWithEmptyForm</span>
+                  <span class="parameters">(nataraj.guvi,1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPlaceOrderWithValidDetails(nataraj.guvi, 1)">
+                  </a> <!-- testPlaceOrderWithValidDetails(nataraj.guvi, 1) -->
+                  <span class="method-name">testPlaceOrderWithValidDetails</span>
+                  <span class="parameters">(nataraj.guvi,1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Online_Shopping_Application_Suite-class-passed -->
+        </div> <!-- panel Online_Shopping_Application_Suite -->
+        <div panel-name="test-xml-Online_Shopping_Application_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\91986\eclipse-workspace\Online_Shopping_Application\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;Online_Shopping_Application Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;valid.password&quot; value=&quot;1&quot;/&gt;
+  &lt;parameter name=&quot;valid.username&quot; value=&quot;nataraj.guvi&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.demoblaze.listeners.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.demoblaze.listeners.TestExecutionLogger&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;Firefox Tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.demoblaze.tests.SignUpTest&quot;/&gt;
+      &lt;class name=&quot;com.demoblaze.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.demoblaze.tests.OrderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox Tests --&gt;
+&lt;/suite&gt; &lt;!-- Online_Shopping_Application Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Online_Shopping_Application_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Online_Shopping_Application Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Firefox Tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Online_Shopping_Application_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Online_Shopping_Application Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Online_Shopping_Application_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Online_Shopping_Application Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Online_Shopping_Application_Suite');
+function tableData_Online_Shopping_Application_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testPlaceOrderWithValidDetails')
+data.setCell(0, 2, 'com.demoblaze.tests.OrderTest')
+data.setCell(0, 3, 48856);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCompleteOrderAndNavigationFlow')
+data.setCell(1, 2, 'com.demoblaze.tests.OrderTest')
+data.setCell(1, 3, 17325);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testValidLogin')
+data.setCell(2, 2, 'com.demoblaze.tests.LoginTest')
+data.setCell(2, 3, 6497);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testValidLogin')
+data.setCell(3, 2, 'com.demoblaze.tests.SignUpTest')
+data.setCell(3, 3, 4218);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSignupWithValidDetails')
+data.setCell(4, 2, 'com.demoblaze.tests.SignUpTest')
+data.setCell(4, 3, 3020);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testEmptyFields')
+data.setCell(5, 2, 'com.demoblaze.tests.LoginTest')
+data.setCell(5, 3, 2894);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testInvalidPassword')
+data.setCell(6, 2, 'com.demoblaze.tests.LoginTest')
+data.setCell(6, 3, 2468);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testInvalidEmailFormat')
+data.setCell(7, 2, 'com.demoblaze.tests.LoginTest')
+data.setCell(7, 3, 2253);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testEmptyFields')
+data.setCell(8, 2, 'com.demoblaze.tests.SignUpTest')
+data.setCell(8, 3, 1578);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testPasswordFieldMasksInput')
+data.setCell(9, 2, 'com.demoblaze.tests.LoginTest')
+data.setCell(9, 3, 1401);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testPlaceOrderWithEmptyForm')
+data.setCell(10, 2, 'com.demoblaze.tests.OrderTest')
+data.setCell(10, 3, 1294);
+window.suiteTableData['Online_Shopping_Application_Suite']= { tableData: data, tableDiv: 'times-div-Online_Shopping_Application_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Online_Shopping_Application_Suite">
+              </div> <!-- times-div-Online_Shopping_Application_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Online_Shopping_Application_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Online_Shopping_Application Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Online_Shopping_Application_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.demoblaze.tests.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteTearDown</span>
+                <br/>
+                <span class="ignored-method-name">suiteSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.demoblaze.tests.OrderTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteTearDown</span>
+                <br/>
+                <span class="ignored-method-name">suiteSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Online_Shopping_Application_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">suiteSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, [TestResult name={null} status=CREATED method=SignUpTest.testSignupWithValidDetails(java.la...)</span>
+                <span class="method-start">1889 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, [TestResult name={null} status=CREATED method=LoginTest.testValidLogin(java.lang.String,jav...)</span>
+                <span class="method-start">1895 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, [TestResult name={null} status=CREATED method=OrderTest.testPlaceOrderWithValidDetails(java...)</span>
+                <span class="method-start">1896 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">14046 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">14272 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSignupWithValidDetails(Nataraj52f92, 12345e6e93)</span>
+                <span class="method-start">14297 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testValidLogin(nataraj.guvi, 1)</span>
+                <span class="method-start">14378 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">15062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPlaceOrderWithValidDetails(nataraj.guvi, 1)</span>
+                <span class="method-start">15330 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17333 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20881 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, [TestResult name={null} status=CREATED method=SignUpTest.testValidLogin(java.lang.String,ja...)</span>
+                <span class="method-start">22996 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, [TestResult name={null} status=CREATED method=LoginTest.testInvalidPassword(java.lang.Strin...)</span>
+                <span class="method-start">23662 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">31690 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidLogin(nataraj.guvi, 1)</span>
+                <span class="method-start">31698 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">32417 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidPassword(nataraj.guvi, 2)</span>
+                <span class="method-start">32442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34914 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35923 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, [TestResult name={null} status=CREATED method=LoginTest.testEmptyFields(java.lang.String,ja...)</span>
+                <span class="method-start">38740 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, [TestResult name={null} status=CREATED method=SignUpTest.testEmptyFields(java.lang.String,j...)</span>
+                <span class="method-start">39060 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">46610 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFields(empty.username, empty.password)</span>
+                <span class="method-start">46617 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">48399 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFields(empty.username, empty.password)</span>
+                <span class="method-start">48405 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49545 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50030 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, [TestResult name={null} status=CREATED method=LoginTest.testInvalidEmailFormat(java.lang.St...)</span>
+                <span class="method-start">51994 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">57566 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidEmailFormat(user.com, 1)</span>
+                <span class="method-start">57568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, [TestResult name={null} status=CREATED method=LoginTest.testPasswordFieldMasksInput(java.la...)</span>
+                <span class="method-start">61335 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64186 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, [TestResult name={null} status=CREATED method=OrderTest.testPlaceOrderWithEmptyForm(java.la...)</span>
+                <span class="method-start">66415 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">67034 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordFieldMasksInput(nataraj.guvi, 1)</span>
+                <span class="method-start">67056 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68465 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">73545 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPlaceOrderWithEmptyForm(nataraj.guvi, 1)</span>
+                <span class="method-start">73554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74864 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, [TestResult name={null} status=CREATED method=OrderTest.testCompleteOrderAndNavigationFlow(...)</span>
+                <span class="method-start">76097 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">80816 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCompleteOrderAndNavigationFlow(nataraj.guvi, 1)</span>
+                <span class="method-start">80823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">98154 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoblaze.tests.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">suiteTearDown</span>
+                <span class="method-start">99190 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

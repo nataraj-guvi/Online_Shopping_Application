@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [Online_Shopping_Application Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="valid.password" value="1"/>
+  <parameter name="valid.username" value="nataraj.guvi"/>
+  <listeners>
+    <listener class-name="com.demoblaze.listeners.TestListener"/>
+    <listener class-name="com.demoblaze.listeners.TestExecutionLogger"/>
+  </listeners>
+  <test thread-count="3" parallel="classes" name="Firefox Tests(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.demoblaze.tests.OrderTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="suiteSetup"/>
+          <include name="pageSetup"/>
+          <include name="testCompleteOrderAndNavigationFlow" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="suiteTearDown"/>
+        </methods>
+      </class> <!-- com.demoblaze.tests.OrderTest -->
+    </classes>
+  </test> <!-- Firefox Tests(failed) -->
+</suite> <!-- Failed suite [Online_Shopping_Application Suite] -->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration xmlns="https://logging.apache.org/log4j/2.0/config"
+               status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <File name="File" fileName="test-output/test-execution.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    	<File name="FileLogger" fileName="test-output/automation.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>	
+        
+        <File name="TestResults" fileName="test-output/test-results-summary.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} - %msg%n"/>
+        </File>
+        <File name="HtmlFile" fileName="test-output/test-report.html">
+            <HTMLLayout/>
+        </File>
+        <File name="BrowserLog" fileName="test-output/browser.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <File name="DetailedLogFile" fileName="test-output/detailed.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+    
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="BrowserLog"/>
+        </Root>
+        
+        
+        <Logger name="com.contactmanagement.listeners.TestExecutionLogger" level="debug" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="BrowserLog"/>
+        </Logger>
+        
+        
+        <Logger name="com.contactmanagement.tests" level="info" additivity="false">
+            <AppenderRef ref="BrowserLog"/>
+            <AppenderRef ref="DetailedLogFile"/>
+        </Logger>
+        
+        <Logger name="com.contactmanagement.pages" level="debug">
+            <AppenderRef ref="BrowserLog"/>
+        </Logger>
+        
+        <Logger name="com.contactmanagement.base" level="info">
+            <AppenderRef ref="BrowserLog"/>
+        </Logger>
+        
+      
+        
+        <Logger name="org.openqa.selenium" level="warn"/>
+        <Logger name="io.github.bonigarcia.wdm" level="warn"/>
+    </Loggers>
+</Configuration>
