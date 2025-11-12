@@ -1,0 +1,441 @@
+Started by user admin
+Running as SYSTEM
+Building in workspace C:\Users\91986\eclipse-workspace\Online_Shopping_Application
+[Online_Shopping_Application] $ cmd /c call C:\WINDOWS\TEMP\jenkins4491248532472218476.bat
+
+C:\Users\91986\eclipse-workspace\Online_Shopping_Application>"C:\Program Files\apache-maven-3.9.11\bin\mvn.cmd" clean test -Dtest=*Test 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----< com.Online_Shopping_Application:Online_Shopping_Application >-----
+[INFO] Building Online_Shopping_Application 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Online_Shopping_Application ---
+[INFO] Deleting C:\Users\91986\eclipse-workspace\Online_Shopping_Application\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Online_Shopping_Application ---
+[INFO] skip non existing resourceDirectory C:\Users\91986\eclipse-workspace\Online_Shopping_Application\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ Online_Shopping_Application ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 13 source files with javac [debug target 11] to target\classes
+[WARNING] system modules path not set in conjunction with -source 11
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Online_Shopping_Application ---
+[INFO] Copying 4 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ Online_Shopping_Application ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 4 source files with javac [debug target 11] to target\test-classes
+[WARNING] system modules path not set in conjunction with -source 11
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ Online_Shopping_Application ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+Extent Report initialized for complete project
+00:39:57.779 [main] INFO  com.demoblaze.base.TestBase - Test Suite Started - Extent Report Initialized
+Excel file available: true
+Available sheets: [ValidLogin, IncorrectPassword, EmptyFields, InvalidEmail, Signup, PasswordMasking, Categories, Products, validOrderData, EmptyOrderData, NavigationData, OrderConfirmationData, ProductData, UIAlignment, ResponsiveTestData, Logout, OrderFlow, OrderDetails]
+ Loading Excel data for: testValidLogin in class: LoginTest
+ Looking for sheet: ValidLogin
+Reading data from sheet with 10 rows
+Data columns: 2
+Row 1: [nataraj.guvi, 1]
+00:39:59.452 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testValidLogin
+00:39:59.456 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+00:39:59.458 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+00:39:59.459 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+[main] INFO io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.162/win64/chromedriver-win64.zip
+[main] INFO io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+Nov 13, 2025 12:40:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 13, 2025 12:40:06 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 142.0.7444.61. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+00:40:06.172 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+00:40:06.174 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+00:40:06.224 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+00:40:07.265 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+00:40:07.316 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+00:40:07.320 [main] INFO  com.demoblaze.base.TestBase - Starting valid login test with data provider keys: nataraj.guvi, 1
+00:40:08.627 [main] INFO  com.demoblaze.base.TestBase - Attempting login
+Welcome nataraj.guvi
+00:40:10.221 [main] INFO  com.demoblaze.base.TestBase - Valid login test passed
+No logout element found
+Browser closed successfully
+Excel file available: true
+Available sheets: [ValidLogin, IncorrectPassword, EmptyFields, InvalidEmail, Signup, PasswordMasking, Categories, Products, validOrderData, EmptyOrderData, NavigationData, OrderConfirmationData, ProductData, UIAlignment, ResponsiveTestData, Logout, OrderFlow, OrderDetails]
+ Loading Excel data for: testInvalidPassword in class: LoginTest
+ Looking for sheet: IncorrectPassword
+Reading data from sheet with 1 rows
+Data columns: 2
+Row 1: [nataraj.guvi, 2]
+00:40:10.661 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testInvalidPassword
+00:40:10.665 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+00:40:10.665 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+00:40:10.665 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+Nov 13, 2025 12:40:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 13, 2025 12:40:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 142.0.7444.61. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+00:40:11.479 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+00:40:11.480 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+00:40:11.536 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+00:40:12.497 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+00:40:12.498 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+00:40:12.500 [main] INFO  com.demoblaze.base.TestBase - Starting InvalidPassword test with data provider keys: nataraj.guvi, 2
+00:40:13.759 [main] INFO  com.demoblaze.base.TestBase - Attempting login
+Wrong password.
+Browser closed successfully
+Excel file available: true
+Available sheets: [ValidLogin, IncorrectPassword, EmptyFields, InvalidEmail, Signup, PasswordMasking, Categories, Products, validOrderData, EmptyOrderData, NavigationData, OrderConfirmationData, ProductData, UIAlignment, ResponsiveTestData, Logout, OrderFlow, OrderDetails]
+ Loading Excel data for: testEmptyFields in class: LoginTest
+ Looking for sheet: EmptyFields
+Reading data from sheet with 1 rows
+Data columns: 2
+Row 1: [empty.username, empty.password]
+00:40:15.250 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testEmptyFields
+00:40:15.251 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+00:40:15.251 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+00:40:15.251 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+Nov 13, 2025 12:40:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 13, 2025 12:40:16 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 142.0.7444.61. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+00:40:16.329 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+00:40:16.330 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+00:40:16.382 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+00:40:19.255 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+00:40:19.257 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+00:40:19.258 [main] INFO  com.demoblaze.base.TestBase - Starting EmptyFields test with data provider keys: empty.username, empty.password
+00:40:20.405 [main] INFO  com.demoblaze.base.TestBase - Attempting login
+Please fill out Username and Password.
+Browser closed successfully
+Excel file available: true
+Available sheets: [ValidLogin, IncorrectPassword, EmptyFields, InvalidEmail, Signup, PasswordMasking, Categories, Products, validOrderData, EmptyOrderData, NavigationData, OrderConfirmationData, ProductData, UIAlignment, ResponsiveTestData, Logout, OrderFlow, OrderDetails]
+ Loading Excel data for: testInvalidEmailFormat in class: LoginTest
+ Looking for sheet: InvalidEmail
+Reading data from sheet with 1 rows
+Data columns: 2
+Row 1: [user.com, 1]
+00:40:20.932 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testInvalidEmailFormat
+00:40:20.933 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+00:40:20.934 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+00:40:20.934 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+Nov 13, 2025 12:40:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 13, 2025 12:40:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 142.0.7444.61. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+00:40:21.941 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+00:40:21.941 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+00:40:21.987 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+00:40:22.936 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+00:40:22.940 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+00:40:22.942 [main] INFO  com.demoblaze.base.TestBase - Starting InvalidEmailFormat test with data provider keys: user.com, 1
+00:40:24.176 [main] INFO  com.demoblaze.base.TestBase - Attempting login
+Wrong password.
+Browser closed successfully
+Excel file available: true
+Available sheets: [ValidLogin, IncorrectPassword, EmptyFields, InvalidEmail, Signup, PasswordMasking, Categories, Products, validOrderData, EmptyOrderData, NavigationData, OrderConfirmationData, ProductData, UIAlignment, ResponsiveTestData, Logout, OrderFlow, OrderDetails]
+ Loading Excel data for: testPasswordFieldMasksInput in class: LoginTest
+ Looking for sheet: PasswordMasking
+Reading data from sheet with 1 rows
+Data columns: 2
+Row 1: [nataraj.guvi, 1]
+00:40:25.070 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: LoginTest - testPasswordFieldMasksInput
+00:40:25.071 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+00:40:25.072 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+00:40:25.072 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+Nov 13, 2025 12:40:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 13, 2025 12:40:26 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 142.0.7444.61. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+00:40:26.219 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+00:40:26.220 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+00:40:26.256 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+00:40:27.238 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+00:40:27.239 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage initialized
+00:40:27.241 [main] INFO  com.demoblaze.base.TestBase - Starting PasswordFieldMasksInput test with data provider keys: nataraj.guvi, 1
+00:40:28.550 [main] INFO  com.demoblaze.base.TestBase - Attempting login
+Password field type: 1
+No logout element found
+Browser closed successfully
+Excel file available: true
+Available sheets: [ValidLogin, IncorrectPassword, EmptyFields, InvalidEmail, Signup, PasswordMasking, Categories, Products, validOrderData, EmptyOrderData, NavigationData, OrderConfirmationData, ProductData, UIAlignment, ResponsiveTestData, Logout, OrderFlow, OrderDetails]
+ Loading Excel data for: testPlaceOrderWithValidDetails in class: OrderTest
+ Looking for sheet: ValidLogin
+Reading data from sheet with 10 rows
+Data columns: 2
+Row 1: [nataraj.guvi, 1]
+00:40:28.925 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testPlaceOrderWithValidDetails
+00:40:28.926 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+00:40:28.926 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+00:40:28.927 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+Nov 13, 2025 12:40:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 13, 2025 12:40:29 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 142.0.7444.61. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+00:40:29.689 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+00:40:29.690 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+00:40:29.750 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+00:40:30.756 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+00:40:30.776 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+00:40:30.777 [main] INFO  com.demoblaze.base.TestBase - Starting testPlaceOrderWithValidDetails with username: nataraj.guvi
+00:40:30.778 [main] INFO  com.demoblaze.base.TestBase - Attempting to login with username: nataraj.guvi
+00:40:32.002 [main] INFO  com.demoblaze.base.TestBase - User logged in successfully
+Loaded cart step: Phones - Iphone 6 32gb - Add
+Loaded cart step: Laptops - MacBook Pro - Add
+Loaded cart step: Monitors - Apple monitor 24 - Add
+Loaded cart step: Phones - Nokia lumia 1520 - Add
+Loaded cart step: Phones - Nokia lumia 1520 - Remove
+00:40:32.041 [main] INFO  com.demoblaze.base.TestBase - Retrieved 5 products from Excel data
+00:40:32.041 [main] INFO  com.demoblaze.base.TestBase - Adding product to cart: Iphone 6 32gb from category: Phones
+Stale element encountered, retry attempt: 1
+Navigated to category: Phones
+Page load wait timeout: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "driver" is null
+00:40:35.873 [main] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+00:40:35.874 [main] INFO  com.demoblaze.base.TestBase - Product added successfully: Iphone 6 32gb
+00:40:36.475 [main] INFO  com.demoblaze.base.TestBase - Adding product to cart: MacBook Pro from category: Laptops
+Navigated to category: Laptops
+Page load wait timeout: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "driver" is null
+00:40:38.299 [main] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+00:40:38.300 [main] INFO  com.demoblaze.base.TestBase - Product added successfully: MacBook Pro
+00:40:38.796 [main] INFO  com.demoblaze.base.TestBase - Adding product to cart: Apple monitor 24 from category: Monitors
+Navigated to category: Monitors
+Page load wait timeout: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "driver" is null
+00:40:41.644 [main] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+00:40:41.644 [main] INFO  com.demoblaze.base.TestBase - Product added successfully: Apple monitor 24
+00:40:42.740 [main] INFO  com.demoblaze.base.TestBase - Adding product to cart: Nokia lumia 1520 from category: Phones
+Navigated to category: Phones
+Page load wait timeout: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "driver" is null
+00:40:44.586 [main] INFO  com.demoblaze.base.TestBase - Alert message received: Product added.
+00:40:44.586 [main] INFO  com.demoblaze.base.TestBase - Product added successfully: Nokia lumia 1520
+00:40:45.415 [main] INFO  com.demoblaze.base.TestBase - Product marked for removal: Nokia lumia 1520
+00:40:45.416 [main] INFO  com.demoblaze.base.TestBase - Navigating to cart to verify added products
+00:40:47.480 [main] INFO  com.demoblaze.base.TestBase - Cart contains 4 products:
+00:40:47.481 [main] INFO  com.demoblaze.base.TestBase -   - Apple monitor 24 - 400
+00:40:47.481 [main] INFO  com.demoblaze.base.TestBase -   - MacBook Pro - 1100
+00:40:47.481 [main] INFO  com.demoblaze.base.TestBase -   - Iphone 6 32gb - 790
+00:40:47.481 [main] INFO  com.demoblaze.base.TestBase -   - Nokia lumia 1520 - 820
+00:40:47.508 [main] INFO  com.demoblaze.base.TestBase - Cart item count: 4
+00:40:47.509 [main] INFO  com.demoblaze.base.TestBase - Cart verification passed
+00:40:47.509 [main] INFO  com.demoblaze.base.TestBase - Removing product before order: Nokia lumia 1520
+00:40:49.599 [main] INFO  com.demoblaze.base.TestBase - Product removed successfully: Nokia lumia 1520
+00:40:49.599 [main] INFO  com.demoblaze.base.TestBase - Starting order placement process
+00:40:50.091 [main] INFO  com.demoblaze.base.TestBase - Order modal displayed successfully
+00:40:50.152 [main] INFO  com.demoblaze.base.TestBase - Retrieved order details from Excel
+Filled Name: nataraj.guvi
+Filled Country: United States
+Filled City: New York
+Filled Card: 4111111111111111
+Filled Month: 12
+Filled Year: 2025
+ Purchase button clicked
+00:40:50.985 [main] INFO  com.demoblaze.base.TestBase - Order form completed with customer details
+00:40:51.022 [main] INFO  com.demoblaze.base.TestBase - Thank you message verified: Thank you for your purchase!
+00:40:51.061 [main] INFO  com.demoblaze.base.TestBase - Order placed successfully - Order ID: 9511383, Amount: 2290 USD
+Order placed successfully!
+Order ID: 9511383
+Amount: 2290 USD
+Thank you message: Thank you for your purchase!
+Ok button Clicked
+00:41:11.246 [main] INFO  com.demoblaze.base.TestBase - Purchase completed
+00:41:11.248 [main] INFO  com.demoblaze.base.TestBase - Confirmation dialog closed
+00:41:11.248 [main] INFO  com.demoblaze.base.TestBase - Closing order modal
+00:41:11.248 [main] INFO  com.demoblaze.base.TestBase - Order modal closed successfully
+Close button clicked via JavaScript
+Order modal closed
+00:41:11.258 [main] INFO  com.demoblaze.base.TestBase - Initiating user logout
+No logout element found
+00:41:11.258 [main] INFO  com.demoblaze.base.TestBase - User logged out successfully
+00:41:11.258 [main] INFO  com.demoblaze.base.TestBase - All order scenarios completed successfully!
+All order scenarios completed successfully!
+00:41:11.258 [main] INFO  com.demoblaze.base.TestBase - testPlaceOrderWithValidDetails2 execution completed
+Browser closed successfully
+Excel file available: true
+Available sheets: [ValidLogin, IncorrectPassword, EmptyFields, InvalidEmail, Signup, PasswordMasking, Categories, Products, validOrderData, EmptyOrderData, NavigationData, OrderConfirmationData, ProductData, UIAlignment, ResponsiveTestData, Logout, OrderFlow, OrderDetails]
+ Loading Excel data for: testPlaceOrderWithEmptyForm in class: OrderTest
+ Looking for sheet: ValidLogin
+Reading data from sheet with 10 rows
+Data columns: 2
+Row 1: [nataraj.guvi, 1]
+00:41:11.613 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testPlaceOrderWithEmptyForm
+00:41:11.616 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+00:41:11.616 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+00:41:11.616 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+Nov 13, 2025 12:41:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 13, 2025 12:41:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 142.0.7444.61. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+00:41:12.544 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+00:41:12.544 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+00:41:12.592 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+00:41:13.555 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+00:41:13.558 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+00:41:13.559 [main] INFO  com.demoblaze.base.TestBase - Starting testPlaceOrderWithEmptyForm with username: nataraj.guvi
+00:41:13.560 [main] INFO  com.demoblaze.base.TestBase - Attempting to login with username: nataraj.guvi
+00:41:14.851 [main] INFO  com.demoblaze.base.TestBase - User logged in successfully
+ User logged in successfully
+Loaded order flow step: Phones - Samsung galaxy s6 - Add
+Loaded order flow step: Phones - Nexus 6 - Add
+Loaded order flow step: Laptops - Sony vaio i5 - Add
+00:41:14.902 [main] INFO  com.demoblaze.base.TestBase - Retrieved order flow data with 3 entries
+00:41:14.903 [main] INFO  com.demoblaze.base.TestBase - Selected product for cart: Samsung galaxy s6 from category: Phones
+Browser closed successfully
+Excel file available: true
+Available sheets: [ValidLogin, IncorrectPassword, EmptyFields, InvalidEmail, Signup, PasswordMasking, Categories, Products, validOrderData, EmptyOrderData, NavigationData, OrderConfirmationData, ProductData, UIAlignment, ResponsiveTestData, Logout, OrderFlow, OrderDetails]
+ Loading Excel data for: testCompleteOrderAndNavigationFlow in class: OrderTest
+ Looking for sheet: ValidLogin
+Reading data from sheet with 10 rows
+Data columns: 2
+Row 1: [nataraj.guvi, 1]
+00:41:15.155 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: OrderTest - testCompleteOrderAndNavigationFlow
+00:41:15.156 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+00:41:15.156 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+00:41:15.156 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+Nov 13, 2025 12:41:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 13, 2025 12:41:16 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 142.0.7444.61. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+00:41:16.063 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+00:41:16.063 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+00:41:16.097 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+00:41:17.182 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+00:41:17.187 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - LoginPage and OrderPage initialized
+Testing navbar navigation...
+Navigated to: Home
+Home navigation working correctly
+Navigated to: Cart
+Cart navigation working correctly
+Navigated to: Contact
+Contact navigation working correctly
+Navigated to: Home
+Return to Home navigation working correctly
+Browser closed successfully
+Excel file available: true
+Available sheets: [ValidLogin, IncorrectPassword, EmptyFields, InvalidEmail, Signup, PasswordMasking, Categories, Products, validOrderData, EmptyOrderData, NavigationData, OrderConfirmationData, ProductData, UIAlignment, ResponsiveTestData, Logout, OrderFlow, OrderDetails]
+ Loading Excel data for: testSignupWithValidDetails in class: SignUpTest
+ Looking for sheet: Signup
+Reading data from sheet with 1 rows
+Data columns: 2
+Row 1: [Natarajed321, 1234536e06]
+00:41:20.511 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testSignupWithValidDetails
+00:41:20.512 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+00:41:20.513 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+00:41:20.513 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+Nov 13, 2025 12:41:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 13, 2025 12:41:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 142.0.7444.61. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+00:41:21.304 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+00:41:21.304 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+00:41:21.342 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+00:41:22.316 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+00:41:22.323 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+00:41:22.324 [main] INFO  com.demoblaze.base.TestBase - Starting testSignUpWithValidInputs for user: Natarajed321 1234536e06
+00:41:22.324 [main] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+Testing signup with - Username: Natarajed321, Password: 1234536e06
+00:41:23.558 [main] INFO  com.demoblaze.base.TestBase - Filling signup form with provided data
+Browser closed successfully
+Excel file available: true
+Available sheets: [ValidLogin, IncorrectPassword, EmptyFields, InvalidEmail, Signup, PasswordMasking, Categories, Products, validOrderData, EmptyOrderData, NavigationData, OrderConfirmationData, ProductData, UIAlignment, ResponsiveTestData, Logout, OrderFlow, OrderDetails]
+ Loading Excel data for: testValidLogin in class: SignUpTest
+ Looking for sheet: ValidLogin
+Reading data from sheet with 10 rows
+Data columns: 2
+Row 1: [nataraj.guvi, 1]
+00:41:25.145 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testValidLogin
+00:41:25.146 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+00:41:25.146 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+00:41:25.146 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+Nov 13, 2025 12:41:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 13, 2025 12:41:25 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 142.0.7444.61. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+00:41:25.927 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+00:41:25.928 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+00:41:25.971 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+00:41:26.906 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+00:41:26.907 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+00:41:26.908 [main] INFO  com.demoblaze.base.TestBase - Starting Verify sign-up with existing username for user: nataraj.guvi 1
+00:41:26.908 [main] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+Browser closed successfully
+Excel file available: true
+Available sheets: [ValidLogin, IncorrectPassword, EmptyFields, InvalidEmail, Signup, PasswordMasking, Categories, Products, validOrderData, EmptyOrderData, NavigationData, OrderConfirmationData, ProductData, UIAlignment, ResponsiveTestData, Logout, OrderFlow, OrderDetails]
+ Loading Excel data for: testEmptyFields in class: SignUpTest
+ Looking for sheet: EmptyFields
+Reading data from sheet with 1 rows
+Data columns: 2
+Row 1: [empty.username, empty.password]
+00:41:29.139 [main] INFO  com.demoblaze.base.TestBase - Extent test created for: SignUpTest - testEmptyFields
+00:41:29.140 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Started ==========
+00:41:29.140 [main] INFO  com.demoblaze.base.TestBase - Initializing browser: chrome
+00:41:29.140 [main] INFO  com.demoblaze.base.TestBase - Thread: main
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+Nov 13, 2025 12:41:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 13, 2025 12:41:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 142.0.7444.61. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+00:41:30.188 [main] INFO  com.demoblaze.base.TestBase - ChromeDriver initialized successfully
+00:41:30.189 [main] INFO  com.demoblaze.base.TestBase - Browser initialized successfully
+00:41:30.237 [main] INFO  com.demoblaze.base.TestBase - Navigating to URL: https://www.demoblaze.com/index.html
+00:41:30.940 [main] INFO  com.demoblaze.base.TestBase - ========== Test Setup Completed ==========
+00:41:30.942 [main] INFO  com.demoblaze.base.TestBase - Page setup completed - SignUpPage initialized
+00:41:30.943 [main] INFO  com.demoblaze.base.TestBase - Starting sign-up with empty fields for user: empty.username empty.password
+00:41:30.943 [main] INFO  com.demoblaze.base.TestBase - Navigating to signup page
+Browser closed successfully
+Complete Extent Report flushed successfully
+00:41:32.873 [main] INFO  com.demoblaze.base.TestBase - Test Suite Completed - Report Generated
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 96.94 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:06 min
+[INFO] Finished at: 2025-11-13T00:41:33+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
